@@ -137,15 +137,118 @@ ul li a:hover {
     color: var(--cor-secundaria-preta); 
 }
 
-@media screen and (max-width: 1020px){
-    /*Classes Gerais*/
 
-    /*Cabeçalho*/
-    #nav-buttons{
-        display: none;
+.desktop-header {
+    display: block; 
+}
+
+
+.mobile-header {
+    display: none;
+}
+
+#ajuda-mobile {
+    display: none; 
+}
+
+@media screen and (max-width: 1020px) {
+    .desktop-header {
+        display: none; 
     }
 
-    .lista-nav{
-        display: none;
+    .mobile-header {
+        display: block; 
+    }
+
+    #nav-buttons {
+        margin-top: 30px;
+        text-align: left;
+        padding: 10px 20px;
+    }
+
+    #nav-buttons button {
+        font-family: var(--poppins-font);
+        font-weight: 600;
+        color: var(--cor-fonte-titulos1);
+        background-color: #fff;
+        border: 1px solid var(--cor-fonte-texto1-transparencia);
+        margin-right: 0; 
+        padding: 8px 30px;
+    }
+
+    .navbar-nav {
+        margin: 10px 0px 20px 0px;
+        font-size: 1.1rem; 
+    }
+
+    .navbar-nav .nav-item.active {
+        margin-left: 0; 
+    }
+    
+
+    #ajuda-mobile {
+        display: block;
+        margin-top: 20px;
+        padding-left: -10px;
+        font-size: 0.9rem; 
+    }
+
+    #ajuda-mobile h3 {
+        padding-left: 30px;
+        font-size: 1.2rem; 
+        margin: 50px 0px 20px 0px;
+    }
+
+    #ajuda-mobile ul {
+        padding-left: 0; 
+        display: flex;
+        flex-direction: column; 
+    }
+    
+    #ajuda-mobile ul li {
+        margin-bottom: 5px; 
+        font-family: var(--poppins-font);
+        align-items: center;
+    }
+
+    #ajuda-mobile ul li img {
+        margin-left: 15px; 
+        width: 24px; 
+        height: auto; 
+        margin: 10px 5px 12px -9px;
+    }
+    
+    .navbar-collapse {
+        position: fixed;
+        top: 0;
+        right: -100%; 
+        height: 100%;
+        width: 80%; 
+        background-color: #fff;
+        transition: right 0.3s ease; 
+    }
+
+    .navbar-collapse.show {
+        right: 0; 
+    }
+
+    .navbar-toggler {
+        border: none; 
+        outline: none; 
+    }
+
+    .navbar-toggler span {
+        border: none;
+    }
+
+    .close-menu {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        font-size: 1.5rem;
+        color: var(--cor-secundaria-preta);
+        background: none;
+        border: none;
+        cursor: pointer;
     }
 }

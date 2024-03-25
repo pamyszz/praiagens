@@ -1,0 +1,104 @@
+* {
+    font-family: 'Poppins';
+}
+
+.conteudo {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    height: auto;
+    padding: 10px;
+}
+
+.container-carrinho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.card-viagem-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    width: 500px;
+    background-color: #E6E6E6;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;   
+}
+
+.card-resumo{
+    width: 350px;
+    height: 450px;
+    background-color: #E6E6E6;
+    border-radius: 15px
+}
+
+.header-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    height: 50px;
+    width: 90%;
+}
+
+.header-card a{
+    font-weight: 500;
+}
+
+div.icon-voo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.detalhes-viagem{
+    display: flex;
+    gap: 10px;
+}
+
+.container-card-detalhes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.container-voo-info{
+    height: 230px;
+    width: 100%;
+}
+
+.container-btn-voo{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 90%;
+}
+
+.btn-voo{
+    height: 50px;
+    border: 1px solid #2723D3;
+    color: #2723D3;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100%;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.btn-voo:hover{
+    background-color: #2723D3;
+    color: #FFF;
+}

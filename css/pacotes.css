@@ -37,9 +37,7 @@
 
 .header-pacote {
     display: flex;
-    align-items: center;
-    height: 150px;
-    padding-top: 50px;
+    padding: 60px 0px 10px 0px;
     justify-content: space-between;
 }
 

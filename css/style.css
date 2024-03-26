@@ -23,6 +23,8 @@
 }
 
 body {
+    width: 100%;
+    height: 100vh;
     background-color: var(--cor-background);
 }
 
@@ -52,7 +54,7 @@ nav {
     color: var(--cor-primaria-azul);
 }
 
-ul {
+nav ul {
     display: flex;
     list-style-type: none;
     margin: 0;
@@ -61,11 +63,11 @@ ul {
     flex: 1; 
 }
 
-ul li {
+nav ul li {
     margin: 0 50px;
 }
 
-ul li a {
+nav ul li a {
     font-family: var(--poppins-font);
     font-weight: 600;
     color: var(--cor-fonte-texto1-transparencia);
@@ -73,7 +75,7 @@ ul li a {
     transition: color 0.3s ease;
 }
 
-ul li a:hover {
+nav ul li a:hover {
     color: var(--cor-fonte-titulos1);
 }
 
@@ -286,5 +288,104 @@ ul li a:hover {
         cursor: pointer;
         z-index: 1001; 
     }
+}
 
+footer{
+    padding: 80px 13% 70px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 1rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+}
+
+.logo-img{
+    width: 25vh;
+    height: auto;
+    margin-left: -4vh;
+}
+
+.footer-content h4{
+    margin-bottom: 1.2rem;
+    font-size: 20px;
+    font-family: var(--helvetica-neue-font);
+}
+
+.footer-content li{
+    margin-bottom: 16px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer-content li a{
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--cor-fonte-texto1-transparencia);
+    transition: all .40s ease;
+}
+
+.footer-content li a:hover{
+    transform: translateY(-3px) translateX(-5px);
+    text-decoration: none;
+}
+
+.footer-content p{
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.social-icons img{
+    display: inline-block;
+    width: 28px;
+    height: auto;
+    margin-right: 17px;
+    transition: all .40s ease;
+}
+.social-icons img:hover{
+    transform: translateY(-5px);
+}
+
+@media (max-width: 1690px) {
+    footer {
+        padding: 50px 5% 40px;
+    }
+}
+
+@media (max-width: 1020px) {
+    footer {
+        padding: 50px 5% 40px;
+        z-index: -1;
+    }
+    .footer {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .logo-img {
+        width: 20vh;
+        margin-left: -3vh; 
+    }
+
+}
+
+
+@media (max-width: 700px) {
+    footer {
+        padding: 50px 5% 40px;
+        z-index: -1;
+    }
+    .footer {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 2rem;
+    }
+    .logo-img {
+        width: 15vh;
+        margin-left: -2vh; 
+    }
 }

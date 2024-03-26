@@ -151,13 +151,14 @@ ul li a:hover {
     display: none; 
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1119px) {
     .desktop-header {
         display: none; 
     }
 
     .mobile-header {
         display: block; 
+ 
     }
 
     #nav-buttons {
@@ -183,6 +184,7 @@ ul li a:hover {
 
     .navbar-nav .nav-item.active {
         margin-left: 0; 
+       
     }
     
 
@@ -226,6 +228,7 @@ ul li a:hover {
         width: 80%; 
         background-color: #fff;
         transition: right 0.3s ease; 
+        z-index: 1;
     }
 
     .navbar-collapse.show {

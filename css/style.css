@@ -52,6 +52,7 @@ nav {
 #logo-nav p {
     font-family: var(--poppins-font);
     color: var(--cor-primaria-azul);
+    margin-bottom: 10px;
 }
 
 nav ul {

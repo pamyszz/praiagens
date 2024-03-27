@@ -326,6 +326,7 @@ footer{
     margin-bottom: 1rem;
     font-family: var(--helvetica-neue-font);
     font-size: 20px;
+    font-weight: 600;
 }
 
 .footer-content li{
@@ -337,7 +338,7 @@ footer{
 .footer-content li a{
     display: block;
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 500;
     color: var(--cor-fonte-texto1-transparencia);
     transition: all .40s ease;
 }

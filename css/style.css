@@ -388,6 +388,38 @@ footer{
     }
 }
 
+/* Para telas entre 320 e 360 pixels de largura (celulares muito pequenos) */
+@media (min-width: 320px) and (max-width: 360px) {
+    footer {
+        padding: 40px 5% 40px;
+        z-index: -1;
+    }
+    .footer {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 0.5rem; 
+    }
+
+    .logo-img {
+        width: 20vh;
+        height: auto;
+        margin-left: -1vh;
+        margin-bottom: -10px;
+    }
+    .social-icons img {
+        width: 3.5vh;
+        height: auto;
+        margin-top: -10px;
+    }
+    .footer-content h4 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .footer-content p {
+        font-size: 14px; 
+        margin-top: 5px;
+    }
+}
 /* Para telas entre 768 e 1000 pixels de largura (tablets) */
 @media (min-width: 768px) and (max-width: 1100px) {
     footer {

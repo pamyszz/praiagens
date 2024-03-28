@@ -3,7 +3,7 @@
 /* Variáveis */
 :root {
     --cor-primaria-azul: #23B5D3;
-    --cor-secundaria-preta: #000000;
+    --cor-secundaria-preta: #1d1d1d;
     --cor-terciaria-branca: #F8F5F5;
     --cor-background: #F4F4F3;
     --cor-fonte-titulos1: #181818;
@@ -102,6 +102,12 @@ nav ul li a:hover {
     font-size: 1.3rem;
     font-weight: 500;
     color: var(--cor-secundaria-preta);
+}
+
+.titulo-5{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--cor-secundaria-preta); 
 }
 
 .subtitulo {

@@ -10,13 +10,13 @@
     padding: 10px;
 }
 
+
 .container-carrinho {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     height: auto;
-    padding-top: 20px;
     gap: 20px;
 }
 
@@ -27,16 +27,16 @@
     justify-content: space-between;
     height: 430px;
     width: 500px;
-    background-color: #E6E6E6;
-    border-radius: 30px;
+    background-color: var(--cor-card);
+    border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .card-resumo {
     width: 350px;
-    height: 440px;
-    background-color: #E6E6E6;
-    border-radius: 15px;
+    height: 430px;
+    background-color: var(--cor-card);
+    border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
@@ -77,7 +77,7 @@ div.icon-voo {
     height: 90%;
     width: 100%;
     background-color: #fff;
-    border-radius: 30px;
+    border-radius: 20px;
     padding: 20px;
 }
 
@@ -86,7 +86,7 @@ div.icon-voo {
     height: 55%;
 }
 
-.container-voo-info-voo{
+.container-voo-info-voo {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -94,15 +94,15 @@ div.icon-voo {
     height: 55%;
 }
 
-.container-voo-info-total{
+.container-voo-info-total {
     display: flex;
     flex-direction: column;
-    width:100%;
+    width: 100%;
     height: 100%;
     justify-content: space-between;
 }
 
-.preco-detalhes{
+.preco-detalhes {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,29 +110,29 @@ div.icon-voo {
     gap: 5px;
 }
 
-.form-turismo{
+.form-turismo {
     display: flex;
     align-items: center;
     gap: 10px;
     width: 100%;
 }
 
-.preco{
+.preco {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 60px;
 }
 
-.preco span{
+.preco span {
     font-weight: 700;
 }
 
-.preco-total{
+.preco-total {
     font-size: 2rem;
 }
 
-.reembolso{
+.reembolso {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,12 +146,12 @@ div.icon-voo {
     background-color: #DCF8E8;
 }
 
-.form-turismo label{
-margin: 0;
+.form-turismo label {
+    margin: 0;
 }
 
 
-.ida-volta{
+.ida-volta {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -160,11 +160,11 @@ margin: 0;
     gap: 10px;
 }
 
-.ida-volta i{
+.ida-volta i {
     font-size: 1.5rem;
 }
 
-.ida-info{
+.ida-info {
     display: flex;
     flex-direction: column;
 }
@@ -268,7 +268,7 @@ margin: 0;
     transition: 0.3s all;
 }
 
-.btn-alerta{
+.btn-alerta {
     background-color: var(--cor-btn-alerta);
     color: var(--cor-fonte-botoes);
     border: none;
@@ -281,8 +281,142 @@ margin: 0;
     outline: none;
 }
 
-.btn-alerta:hover{
+.btn-alerta:hover {
     background-color: var(--cor-btn-alerta-hover);
-   
+
 }
 
+.header-section {
+    padding: 60px 0px 20px 0px;
+}
+
+.estado {
+    color: var(--cor-primaria-azul);
+}
+
+/* Listagem de hotéis */
+
+.container-hotel {
+    height: auto;
+    width: 100%;
+
+}
+
+.card-hotel {
+    display: flex;
+    width: 1000px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.hotel-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: 40%;
+    height: 100%;
+}
+
+.hotel-preview {
+    width: 30%;
+    height: 100%;
+}
+
+.hotel-resumo {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.hotel-info>.info-hotel {
+    width: 100%;
+}
+
+.resumo-detalhes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+.despesa-hotel {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 5px;
+}
+
+
+.btn-fundo {
+    background-color: var(--cor-primaria-azul);
+    border: none;
+    color: var(--cor-fonte-botoes);
+}
+
+.btn-fundo:hover {
+    background-color: var(--cor-fonte-hover);
+}
+
+
+.hotel-preview img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .card-viagem-info,
+    .card-resumo {
+        width: 100%;
+    }
+
+
+    .container-carrinho {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-section {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:901px) {
+
+    @media screen and (max-width: 1257px) {
+
+        .container-carrinho {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-resumo {
+            width: 500px;
+        }
+
+        .header-section {
+            text-align: center;
+        }
+    }
+
+}
+
+
+
+@media screen and (min-width: 1258px) {
+    @media screen and (max-width: 1398px) {
+
+        .conteudo {
+            max-width: 1200px;
+        }
+
+    }
+}

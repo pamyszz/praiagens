@@ -12,6 +12,7 @@
     --cor-fonte-botoes: #F6F6F6;
     --cor-fonte-subtitulo: #f8f5f5ca;
     --cor-btn-alerta: #FFBB7C;
+    --cor-btn-alerta-hover: #e1944d;
     --poppins-font: "Poppins", sans-serif;
     --helvetica-neue-font: "Open Sans", sans-serif;
 }
@@ -93,20 +94,20 @@ nav ul li a:hover {
 }
 
 .titulo-3 {
-    font-size: 1.3rem;
-    font-weight: 650;
+    font-size: 1.7rem;
+    font-weight: 600;
     color: var(--cor-secundaria-preta);
 }
 
 .titulo-4 {
     font-size: 1.3rem;
-    font-weight: 500;
+    font-weight: 600;
     color: var(--cor-secundaria-preta);
 }
 
 .titulo-5{
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 600;
     color: var(--cor-secundaria-preta); 
 }
 

@@ -373,6 +373,44 @@ div.icon-voo {
 
 @media screen and (max-width: 900px) {
 
+    .container-hotel {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        overflow: scroll;
+    }
+
+    .card-hotel {
+        flex-direction: column;
+        width: 400px;
+        height: auto;
+    }
+
+    .info-hotel {
+        padding-left: 10px;
+    }
+
+    .hotel-preview {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 100%;
+    }
+
+    .hotel-preview img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .dados-hotel {
+        width: 100%;
+    }
+
     .card-viagem-info,
     .card-resumo {
         width: 100%;
@@ -387,11 +425,26 @@ div.icon-voo {
     .header-section {
         text-align: center;
     }
+
+    .valor {
+        display: none;
+    }
+
+    .quarto-info {
+        margin-top: 20px;
+    }
+
+
 }
 
 @media screen and (min-width:901px) {
 
     @media screen and (max-width: 1257px) {
+
+        .info-hotel {
+            padding-left: 10px;
+        }
+
 
         .container-carrinho {
             display: flex;
@@ -407,6 +460,7 @@ div.icon-voo {
         }
     }
 
+
 }
 
 
@@ -414,8 +468,16 @@ div.icon-voo {
 @media screen and (min-width: 1258px) {
     @media screen and (max-width: 1398px) {
 
+        .card-viagem-info {
+            width: 450px;
+        }
+
+        .info-hotel {
+            padding-left: 10px;
+        }
+
         .conteudo {
-            max-width: 1200px;
+            max-width: 1300px;
         }
 
     }

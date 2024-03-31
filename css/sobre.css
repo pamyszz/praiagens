@@ -27,7 +27,7 @@
 body {
     position: relative;
     background-color: var(--cor-background);
-    min-height: 200vh;
+    min-height: 300vh;
 }
 
 .main-container {
@@ -94,26 +94,90 @@ margin: 0 auto;
 }
 
 .text-overlay2 {
-    position: absolute; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    text-align: center; 
-    max-width: 100%; 
-    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 50px;
 }
 
 .titulo-viajar {
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-weight: 600;
     color: var(--cor-fonte-titulos1);
     font-family: var(--poppins-font);
+    text-align: center;
 }
 
 .paragrafo-viajar {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     font-weight: 400;
     color: var(--cor-fonte-texto1-transparencia);
     margin-top: 15px;
+    text-align: center;
 }
 
+.card-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 45px; 
+    margin-top: 40px;
+}
+
+.card {
+    width: 335px;
+    height: 320px; 
+    border: 1.6px solid rgba(0, 0, 0, 0.374); 
+    border-radius: 10px; 
+    background-color: var(--cor-background);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    text-align: center; 
+    padding: 22px; 
+}
+
+.card strong {
+    font-family: var(--poppins-font);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--cor-secundaria-preta);
+}
+
+.card p {
+    font-family: var(--poppins-font);
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--cor-fonte-texto1-transparencia);
+}
+
+.card h2 {
+    margin-top: 0; 
+    font-family: var(--poppins-font);
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: var(--cor-fonte-texto1-transparencia);
+}
+
+.card h3 {
+    font-family: var(--poppins-font);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--cor-fonte-texto1-transparencia);
+}
+
+.buy-button {
+    width: 100%;
+    height: auto;
+    background-color: transparent;  
+    border: 1.6px solid rgba(0, 0, 0, 0.374); 
+    cursor: pointer; 
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-family: var(--poppins-font);
+    color: var(--cor-fonte-texto1-transparencia);
+}
+
+.buy-button:hover {
+    background-color: rgba(0, 0, 0, 0.032); 
+}

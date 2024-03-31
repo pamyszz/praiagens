@@ -14,7 +14,7 @@
     <title>Hoteis + Carrinho</title>
 </head>
 
-<body>
+<body class="teste">
     <header class="desktop-header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div id="logo-nav">
@@ -41,7 +41,11 @@
                     </li>
                 </ul>
                 <div id="nav-buttons">
-                    <a href="#">Entrar</a>
+                    <div class="noturno">
+                        <div class="noturno-escolha">
+                        </div>
+                    </div>
+                    <a href="#" class="nav-link">Entrar</a>
                     <button>Cadastro</button>
                 </div>
             </div>
@@ -247,10 +251,10 @@
                         <div class="container-voo-info-total">
                             <div class="preco-detalhes">
                                 <h3 class="titulo-4">Total</h1>
-                                    <span class="subtitulo-2">Valor da passagem:</span>
-                                    <span class="subtitulo-2">Valor da passagem:</span>
-                                    <span class="subtitulo-2">Valor da passagem:</span>
-                                    <span class="subtitulo-2">Valor da passagem:</span>
+                                    <p class="subtitulo-2">Valor da passagem:</p>
+                                    <p class="subtitulo-2">Valor da passagem:</p>
+                                    <p class="subtitulo-2">Valor da passagem:</p>
+                                    <p class="subtitulo-2">Valor da passagem:</p>
                                     <form class="form-turismo" action="#">
                                         <input type="checkbox">
                                         <label for="">Precisa de guia turismo?</label>
@@ -265,7 +269,7 @@
 
                             </div>
                         </div>
-                        <button class="btn-voo btn-alerta">Reservar agora</button>
+                        <button class="btn-alerta">Reservar agora</button>
                     </div>
                 </div>
             </div>
@@ -322,8 +326,67 @@
                         <div class="resumo-detalhes">
                             <div class="despesa-hotel">
                                 <h3 class="titulo-4 valor">Valor do pacote com este hotel:</h1>
-                                    <span class="subtitulo-2">Valor da passagem:</span>
-                                    <span class="subtitulo-2">Valor da passagem:</span>
+                                    <p class="subtitulo-2">Valor da passagem:</p>
+                                    <p class="subtitulo-2">Valor da passagem:</p>
+
+                            </div>
+
+                            <div class="preco">
+                                <h3 class="titulo-4">Valor:</h3>
+                                <div class="total-preco"><span class="estado">R$</span> <span
+                                        class="titulo-2 estado">1.333</span></div>
+
+                            </div>
+                        </div>
+                        <button class="btn-voo btn-fundo">Reservar agora</button>
+                    </div>
+                </div>
+
+                <div class="card-hotel">
+                    <div class="hotel-preview">
+                        <img src="img/rio.jpg" alt="">
+                    </div>
+
+                    <div class="hotel-info dados-hotel">
+                        <div class="info-hotel">
+                            <h1 class="titulo-2">
+                                Hotel Incrível
+                            </h1>
+
+                            <div class="hotel-local">
+                                <h2 class="subtitulo-2">Hotel & Spa Lage de Itaúna, 1900</h2>
+                                <a href="#">Veja no mapa</a>
+                            </div>
+
+                            <div class="avaliacao-beneficios">
+                                <div class="star">
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                </div>
+                                <div class="beneficio">
+                                    <i class="fa-solid fa-snowflake"></i>
+                                    <i class="fa-solid fa-wifi"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quarto-info">
+                            <h1 class="titulo-4">1x Quarto Econômico</h1>
+                            <div class="cafe">
+                                <i class="fa-solid fa-mug-hot subtitulo-2"></i>
+                                <h2 class="subtitulo-2">Com café da manhã</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hotel-resumo">
+                        <div class="resumo-detalhes">
+                            <div class="despesa-hotel">
+                                <h3 class="titulo-4 valor">Valor do pacote com este hotel:</h1>
+                                    <p class="subtitulo-2">Valor da passagem:</p>
+                                    <p class="subtitulo-2">Valor da passagem:</p>
 
                             </div>
 
@@ -344,7 +407,7 @@
         </section>
     </main>
 
-
+    <script src="js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

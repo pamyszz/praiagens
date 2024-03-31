@@ -269,10 +269,15 @@ div.icon-voo {
 }
 
 .btn-alerta {
-    background-color: var(--cor-btn-alerta);
+    height: 50px;
+    border: 1px solid var(--cor-btn-alerta);
     color: var(--cor-fonte-botoes);
-    border: none;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100%;
+    background-color: var(--cor-btn-alerta);
+    cursor: pointer;
+    transition: 0.3s all;
 }
 
 .btn-voo:hover {
@@ -297,8 +302,12 @@ div.icon-voo {
 /* Listagem de hotéis */
 
 .container-hotel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     height: auto;
     width: 100%;
+
 
 }
 
@@ -308,6 +317,7 @@ div.icon-voo {
     height: 350px;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    min-width: 300px;
 }
 
 .hotel-info {
@@ -369,23 +379,48 @@ div.icon-voo {
     border-bottom-left-radius: 20px;
 
 }
+#nav-buttons {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+
+.modo-noturno{
+    background-color: rgb(47, 47, 47);
+    color: var(--cor-fonte-botoes);
+}
+
+.modo-noturno-card{
+    background-color: rgb(91, 91, 91);
+    color: #fff;
+}
+
+.modo-noturno-texto{
+    color: var(--cor-fonte-botoes);
+}
+
+.modo-noturno-btn{
+    background-color: #2723D3;
+    color: var(--cor-fonte-botoes);
+}
 
 
 @media screen and (max-width: 900px) {
 
     .container-hotel {
-        display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
         width: 100%;
-        overflow: scroll;
+        overflow: auto;
     }
+
+
 
     .card-hotel {
         flex-direction: column;
-        width: 400px;
         height: auto;
+        width: 100%;
     }
 
     .info-hotel {
@@ -440,6 +475,15 @@ div.icon-voo {
 @media screen and (min-width:901px) {
 
     @media screen and (max-width: 1257px) {
+
+        .container-hotel{
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card-hotel{
+            width: 800px;
+        }
 
         .info-hotel {
             padding-left: 10px;

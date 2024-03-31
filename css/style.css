@@ -82,6 +82,36 @@ nav ul li a:hover {
     color: var(--cor-fonte-titulos1);
 }
 
+.noturno{
+    display: flex;
+    position: relative;
+    width: 80px;
+    height: 35px;
+    background-color: var(--cor-primaria-azul);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s all;
+    justify-content: left;
+}
+
+.noturno-escolha{
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    width: 35px;
+    background-color: rgb(255, 213, 0);
+    border-radius: 100%;
+    transition: 0.5s all;
+}
+
+.noturno-on{
+  position: absolute;
+  left: 50px;
+  transition: 0.4s all;
+  background-color: var(--cor-card);
+}
+
+
 .titulo-1 {
     font-size: 3.7rem;
     font-weight: 700;

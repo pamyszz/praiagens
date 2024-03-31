@@ -27,7 +27,7 @@
 body {
     position: relative;
     background-color: var(--cor-background);
-    min-height: 300vh;
+    min-height: 400vh;
 }
 
 .main-container {
@@ -48,7 +48,7 @@ body {
     left: 10%;
     transform: translateY(-50%);
     padding: 20px; 
-     text-align: center;
+    text-align: center;
 }
 
 .img-sobre {
@@ -84,7 +84,7 @@ margin: 0 auto;
 }
 
 .sobre-text {
-    width: 140%;
+    width: 210%;
     position: absolute;
     font-family: var(--poppins-font);
     font-weight: 400;
@@ -170,7 +170,7 @@ margin: 0 auto;
     width: 100%;
     height: auto;
     background-color: transparent;  
-    border: 1.6px solid rgba(0, 0, 0, 0.374); 
+    border: 1.5px solid rgba(0, 0, 0, 0.374); 
     cursor: pointer; 
     padding: 10px 10px;
     border-radius: 10px;
@@ -182,4 +182,92 @@ margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.032); 
 }
 
-/*arrumar o da latam*/
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+}
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 40px;
+    margin-bottom: 0 auto;
+}
+
+.duvidas{
+    text-align: center;
+}
+
+.duvidas h2{
+    margin-top: 0; 
+    font-family: var(--poppins-font);
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: var(--cor-fonte-titulos1);
+    margin-bottom: 30px;
+}
+
+.faq-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.faq-list li {
+    background-color: #eaeaea; 
+    padding: 20px;
+    padding-left: 30px;
+    border-radius: 7px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    width: 50%; 
+    font-family: var(--poppins-font);
+    font-weight: 600;
+    color: var(--cor-fonte-texto1-transparencia);
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.faq-list li img {
+    margin-left: auto;
+    width: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    .sobre-title{
+        width: 90%;
+        top: 35%;
+        text-align: left;
+        font-family: var(--poppins-font);
+        font-weight: 700;
+        color: var(--cor-background);
+        font-size: 1rem;
+        z-index: 1;
+    }
+
+    .sobre-text {
+        display: none;
+    }
+
+    .img-sobre {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .sobre-title {
+        font-size: 2rem;
+    }
+
+    .sobre-text {
+        font-size: 1rem;
+    }
+}

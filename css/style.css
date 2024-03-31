@@ -3,7 +3,7 @@
 /* Variáveis */
 :root {
     --cor-primaria-azul: #23B5D3;
-    --cor-secundaria-preta: #000000;
+    --cor-secundaria-preta: #1d1d1d;
     --cor-terciaria-branca: #F8F5F5;
     --cor-background: #F4F4F3;
     --cor-fonte-titulos1: #181818;
@@ -12,8 +12,10 @@
     --cor-fonte-botoes: #F6F6F6;
     --cor-fonte-subtitulo: #f8f5f5ca;
     --cor-btn-alerta: #FFBB7C;
+    --cor-btn-alerta-hover: #e1944d;
     --poppins-font: "Poppins", sans-serif;
     --helvetica-neue-font: "Open Sans", sans-serif;
+    --cor-card: #E6E6E6;
 }
 
 * {
@@ -93,14 +95,20 @@ nav ul li a:hover {
 }
 
 .titulo-3 {
-    font-size: 1.3rem;
-    font-weight: 650;
+    font-size: 1.7rem;
+    font-weight: 600;
     color: var(--cor-secundaria-preta);
 }
 
 .titulo-4 {
     font-size: 1.3rem;
-    font-weight: 500;
+    font-weight: 600;
+    color: var(--cor-secundaria-preta);
+}
+
+.titulo-5 {
+    font-size: 1rem;
+    font-weight: 600;
     color: var(--cor-secundaria-preta);
 }
 
@@ -113,6 +121,12 @@ nav ul li a:hover {
 .subtitulo-2 {
     font-size: 1rem;
     margin: 0;
+    font-weight: 400;
+    color: var(--cor-fonte-texto1-transparencia);
+}
+
+.subtitulo-3 {
+    font-size: 1.3rem;
     font-weight: 400;
     color: var(--cor-fonte-texto1-transparencia);
 }
@@ -300,12 +314,11 @@ nav ul li a:hover {
     }
 }
 
-/*Footer - Pamy*/
-footer{
+footer {
     padding: 80px 13% 70px;
 }
 
-.footer{
+.footer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(11px, auto));
     gap: 5rem;
@@ -316,26 +329,26 @@ footer{
     justify-content: center;
 }
 
-.logo-img{
+.logo-img {
     width: 25vh;
     height: auto;
     margin-left: -4vh;
 }
 
-.footer-content h4{
+.footer-content h4 {
     margin-bottom: 1rem;
     font-family: var(--helvetica-neue-font);
     font-size: 20px;
     font-weight: 600;
 }
 
-.footer-content li{
+.footer-content li {
     margin-bottom: 8px;
     list-style-type: none;
     padding-left: 0;
 }
 
-.footer-content li a{
+.footer-content li a {
     display: block;
     font-size: 13px;
     font-weight: 500;
@@ -343,18 +356,18 @@ footer{
     transition: all .40s ease;
 }
 
-.footer-content li a:hover{
+.footer-content li a:hover {
     transform: translateY(-3px) translateX(-5px);
     text-decoration: none;
 }
 
-.footer-content p{
+.footer-content p {
     font-size: 15px;
     line-height: 30px;
     margin: 20px 0;
 }
 
-.social-icons img{
+.social-icons img {
     display: inline-block;
     width: 25px;
     height: auto;
@@ -363,27 +376,28 @@ footer{
     cursor: pointer;
 }
 
-.social-icons img:hover{
+.social-icons img:hover {
     transform: translateY(-5px);
 }
 
-/* Para telas até 767 pixels de largura (celulares) - Pamy */
 @media (max-width: 767px) {
     footer {
         padding: 40px 5% 40px;
         z-index: -1;
     }
+
     .footer {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        gap: 1rem; 
+        gap: 1rem;
     }
 
     .logo-img {
-        width: 24vh;
+        width: 21.5vh;
         height: auto;
         margin-left: -1vh;
         margin-bottom: -15px;
     }
+
     .social-icons img {
         width: 3.5vh;
         height: auto;
@@ -399,7 +413,6 @@ footer{
     }
 }
 
-/* Para telas entre 320 e 360 pixels de largura (celulares muito pequenos) - Pamy */
 @media (min-width: 319px) and (max-width: 359px) {
     footer {
         padding: 40px 5% 40px;
@@ -407,7 +420,7 @@ footer{
     }
 
     .footer {
-        grid-template-columns: repeat(2, auto-fit, minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         gap: 0.5rem;
     }
 
@@ -417,6 +430,7 @@ footer{
         margin-left: -1vh;
         margin-bottom: 10px;
     }
+
     .social-icons img {
         width: 3.2vh;
         height: auto;
@@ -428,48 +442,17 @@ footer{
     }
 
     .footer-content p {
-        font-size: 14.5px; 
-        margin-top: 2px;
+        font-size: 14px;
+        margin-top: 5px;
     }
 }
 
-@media (min-width: 392px) and (max-width: 851px) {
-    .logo-img {
-        width: 23.5vh;
-        height: auto;
-        margin-left: -1vh;
-        margin-bottom: 10px;
-    }
-
-    .social-icons img {
-        width: 3.1vh;
-        height: auto;
-    }
-
-    .footer-content h4 {
-        font-size: 1.35rem;
-        font-weight: 600;
-    }
-
-    .footer-content p {
-        font-size: 15px; 
-        margin-top: 2px;
-    }
-
-    .footer-content li{
-        margin-bottom: 5px;
-        list-style-type: none;
-        padding-left: 0;
-    }
-}
-
-/* Para telas entre 768 e 1000 pixels de largura (tablets) - Pamy */
-@media (min-width: 767px) and (max-width: 1100px) {
+@media (min-width: 768px) and (max-width: 1100px) {
     footer {
         padding: 50px 5% 40px;
         z-index: -1;
     }
-    
+
     .footer {
         display: grid;
         grid-template-columns: repeat(3, minmax(100px, 1fr));
@@ -498,7 +481,7 @@ footer{
     }
 
     .footer-content p {
-        font-size: 20px; 
+        font-size: 20px;
         margin-top: 5px;
     }
 }

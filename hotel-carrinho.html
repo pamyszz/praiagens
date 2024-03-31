@@ -92,79 +92,220 @@
     </header>
 
     <main class="conteudo">
-        <section class="container-carrinho">
-            <div class="card-viagem-info">
-                <div class="header-card">
-                    <div class="icon-voo">
-                        <i class="fa-solid fa-plane" style="color: #1e3050;"></i>
-                        <h7>Voo</h7>
-                    </div>
-
-                    <div class="detalhes-viagem">
-                        <a href="">Detalhes Ida</a>
-                        <a href="">Detalhes Volta</a>
-                    </div>
-                </div>
-                <div class="container-card-detalhes">
-                    <div class="container-voo-info"></div>
-                    <button class="btn-voo">Alterar voo</button>
-                </div>
+        <section class="carrinho">
+            <div class="header-section">
+                <h1 class="titulo-2">Pacote recomendado</h1>
             </div>
-            <div class="card-viagem-info">
-                <div class="header-card">
-                    <div class="icon-voo">
-                        <i class="fa-solid fa-plane" style="color: #1e3050;"></i>
-                        <h7>Voo</h7>
+
+            <div class="container-carrinho">
+                <div class="card-viagem-info">
+                    <div class="header-card">
+                        <div class="icon-voo">
+                            <i class="fa-solid fa-plane" style="color: #1e3050;"></i>
+                            <h7>Voo</h7>
+                        </div>
+
+                        <div class="detalhes-viagem">
+                            <a href="">Detalhes Ida</a>
+                            <a href="">Detalhes Volta</a>
+                        </div>
                     </div>
-
-                    <div class="detalhes-viagem">
-                        <a href="">Detalhes do Hotel</a>
-                    </div>
-                </div>
-                <div class="container-card-detalhes">
-                    <div class="container-voo-info">
-                        <div class="container-hotel-info">
-                            <div class="img-hotel">
-                                <img src="img/rio.jpg" alt="">
-                            </div>
-
-                            <div class="info-hotel">
-                                <h1 class="titulo-4">
-                                    Hotel Incrível
-                                </h1>
-
-                                <div class="hotel-local">
-                                    <h2 class="subtitulo-2">Hotel & Spa Lage de Itaúna, 1900</h2>
-                                    <a href="#">Veja no mapa</a>
+                    <div class="container-card-detalhes">
+                        <div class="container-voo-info-voo">
+                            <div class="ida-volta">
+                                <div class="ida-info">
+                                    <h1 class="titulo-5">Ida</h1>
+                                    <h2 class="subtitulo-2">28/08/2024</h1>
                                 </div>
 
-                                <div class="avaliacao-beneficios">
-                                    <!-- <div class="nota">
+                                <div class="ida-info">
+                                    <h1 class="titulo-5">12:30</h1>
+                                    <h2 class="subtitulo-2">CGH</h1>
+                                </div>
+
+                                <div class="ida-info">
+                                    <h1 class="titulo-5">Total: 1h 15min</h1>
+                                    <h2 class="subtitulo-2">Total: 1h 15min</h1>
+                                </div>
+
+                                <div class="ida-info">
+                                    <h1 class="titulo-5">12:30</h1>
+                                    <h2 class="subtitulo-2">CGH</h1>
+                                </div>
+
+                                <i class="fa-solid fa-suitcase-rolling"></i>
+                            </div>
+                            <div class="ida-volta border-top border-bottom">
+                                <div class="ida-info">
+                                    <h1 class="titulo-5">Ida</h1>
+                                    <h2 class="subtitulo-2">28/08/2024</h1>
+                                </div>
+
+                                <div class="ida-info">
+                                    <h1 class="titulo-5">12:30</h1>
+                                    <h2 class="subtitulo-2">CGH</h1>
+                                </div>
+
+                                <div class="ida-info">
+                                    <h1 class="titulo-5">Total: 1h 15min</h1>
+                                    <h2 class="subtitulo-2">Total: 1h 15min</h1>
+                                </div>
+
+                                <div class="ida-info">
+                                    <h1 class="titulo-5">12:30</h1>
+                                    <h2 class="subtitulo-2">CGH</h1>
+                                </div>
+
+                                <i class="fa-solid fa-suitcase-rolling"></i>
+                            </div>
+                        </div>
+                        <button class="btn-voo">Alterar voo</button>
+                    </div>
+                </div>
+                <div class="card-viagem-info">
+                    <div class="header-card">
+                        <div class="icon-voo">
+                            <i class="fa-solid fa-plane" style="color: #1e3050;"></i>
+                            <h7>Voo</h7>
+                        </div>
+
+                        <div class="detalhes-viagem">
+                            <a href="">Detalhes do Hotel</a>
+                        </div>
+                    </div>
+                    <div class="container-card-detalhes">
+                        <div class="container-voo-info">
+                            <div class="container-hotel-info">
+                                <div class="img-hotel">
+                                    <img src="img/rio.jpg" alt="">
+                                </div>
+
+                                <div class="info-hotel">
+                                    <h1 class="titulo-4">
+                                        Hotel Incrível
+                                    </h1>
+
+                                    <div class="hotel-local">
+                                        <h2 class="subtitulo-2">Hotel & Spa Lage de Itaúna, 1900</h2>
+                                        <a href="#">Veja no mapa</a>
+                                    </div>
+
+                                    <div class="avaliacao-beneficios">
+                                        <!-- <div class="nota">
                                         <span>9.5</span>
                                     </div> -->
-                                    <div class="star">
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <div class="star">
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        </div>
+                                        <div class="beneficio">
+                                            <i class="fa-solid fa-snowflake"></i>
+                                            <i class="fa-solid fa-wifi"></i>
+                                        </div>
                                     </div>
-                                    <div class="beneficio">
-                                        <i class="fa-solid fa-snowflake"></i>
-                                        <i class="fa-solid fa-wifi"></i>
-                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="entrada-saida">
+                                <div class="entrada">
+                                    <i class="fa-solid fa-calendar-days subtitulo-2"></i>
+                                    <h2 class="subtitulo-2">Entrada na Quarta-Feira</h2>
+                                </div>
+
+                                <div class="saida">
+                                    <i class="fa-solid fa-calendar-days subtitulo-2"></i>
+                                    <h2 class="subtitulo-2">Saída no Domingo</h2>
+                                </div>
+                            </div>
+
+                            <div class="quarto-info">
+                                <h1 class="titulo-4">1x Quarto Econômico</h1>
+                                <div class="cafe">
+                                    <i class="fa-solid fa-mug-hot subtitulo-2"></i>
+                                    <h2 class="subtitulo-2">Com café da manhã</h2>
                                 </div>
                             </div>
                         </div>
+                        <button class="btn-voo">Alterar hotel</button>
+                    </div>
+                </div>
 
-                        <div class="entrada-saida">
-                            <div class="entrada">
-                                <i class="fa-solid fa-calendar-days subtitulo-2"></i>
-                                <h2 class="subtitulo-2">Entrada na Quarta-Feira</h2>
+                <div class="card-resumo">
+                    <div class="header-card">
+                        <div class="icon-voo">
+                            <i class="fa-solid fa-plane" style="color: #1e3050;"></i>
+                            <h6>Resumo</h6>
+                        </div>
+
+                        <div class="detalhes-viagem">
+                            <a href="">Detalhes do Hotel</a>
+                        </div>
+                    </div>
+                    <div class="container-card-detalhes">
+                        <div class="container-voo-info-total">
+                            <div class="preco-detalhes">
+                                <h3 class="titulo-4">Total</h1>
+                                    <span class="subtitulo-2">Valor da passagem:</span>
+                                    <span class="subtitulo-2">Valor da passagem:</span>
+                                    <span class="subtitulo-2">Valor da passagem:</span>
+                                    <span class="subtitulo-2">Valor da passagem:</span>
+                                    <form class="form-turismo" action="#">
+                                        <input type="checkbox">
+                                        <label for="">Precisa de guia turismo?</label>
+                                    </form>
                             </div>
 
-                            <div class="saida">
-                                <i class="fa-solid fa-calendar-days subtitulo-2"></i>
-                                <h2 class="subtitulo-2">Saída no Domingo</h2>
+                            <div class="preco">
+                                <div class="reembolso">
+                                    <span>Reembolsavel</span>
+                                </div>
+                                <div class="total-preco"><span>R$</span> <span class="preco-total">1.333</span></div>
+
+                            </div>
+                        </div>
+                        <button class="btn-voo btn-alerta">Reservar agora</button>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+        <section class="hotel-list">
+            <div class="header-section">
+                <h1 class="titulo-2">Hotéis para esta <span class="estado">viagem</span></h1>
+                <h2 class="subtitulo-3"> Todos hotéis ja estão com o preço da passagem incluso</h2>
+            </div>
+            <div class="container-hotel">
+                <div class="card-hotel">
+                    <div class="hotel-preview">
+                        <img src="img/rio.jpg" alt="">
+                    </div>
+
+                    <div class="hotel-info dados-hotel">
+                        <div class="info-hotel">
+                            <h1 class="titulo-2">
+                                Hotel Incrível
+                            </h1>
+
+                            <div class="hotel-local">
+                                <h2 class="subtitulo-2">Hotel & Spa Lage de Itaúna, 1900</h2>
+                                <a href="#">Veja no mapa</a>
+                            </div>
+
+                            <div class="avaliacao-beneficios">
+                                <div class="star">
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                </div>
+                                <div class="beneficio">
+                                    <i class="fa-solid fa-snowflake"></i>
+                                    <i class="fa-solid fa-wifi"></i>
+                                </div>
                             </div>
                         </div>
 
@@ -176,25 +317,29 @@
                             </div>
                         </div>
                     </div>
-                    <button class="btn-voo">Alterar hotel</button>
-                </div>
-            </div>
-            </div>
-            <div class="card-resumo">
-                <div class="header-card">
-                    <div class="icon-voo">
-                        <i class="fa-solid fa-plane" style="color: #1e3050;"></i>
-                        <h6>Voo</h6>
-                    </div>
 
-                    <div class="detalhes-viagem">
-                        <a href="">Detalhes do Hotel</a>
+                    <div class="hotel-resumo">
+                        <div class="resumo-detalhes">
+                            <div class="despesa-hotel">
+                                <h3 class="titulo-4 valor">Valor do pacote com este hotel:</h1>
+                                    <span class="subtitulo-2">Valor da passagem:</span>
+                                    <span class="subtitulo-2">Valor da passagem:</span>
+
+                            </div>
+
+                            <div class="preco">
+                                <h3 class="titulo-4">Valor:</h3>
+                                <div class="total-preco"><span class="estado">R$</span> <span
+                                        class="titulo-2 estado">1.333</span></div>
+
+                            </div>
+                        </div>
+                        <button class="btn-voo btn-fundo">Reservar agora</button>
                     </div>
                 </div>
-                <div class="container-card-detalhes">
-                    <div class="container-voo-info"></div>
-                    <button class="btn-voo">Alterar voo</button>
-                </div>
+
+
+            </div>
             </div>
         </section>
     </main>

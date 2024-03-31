@@ -241,7 +241,6 @@ nav ul li a:hover {
 
     }
 
-
     #ajuda-mobile {
         display: block;
         margin-top: 20px;
@@ -411,7 +410,6 @@ footer {
     transform: translateY(-5px);
 }
 
-/* Para telas até 767 pixels de largura (celulares) */
 @media (max-width: 767px) {
     footer {
         padding: 40px 5% 40px;
@@ -435,10 +433,17 @@ footer {
         height: auto;
         margin-top: -20px;
     }
+
+    .footer-content li a{
+        display: block;
+        font-size: 15px;
+        font-weight: 500;
+        color: var(--cor-fonte-texto1-transparencia);
+        transition: all .40s ease;
+    }
 }
 
-/* Para telas entre 320 e 360 pixels de largura (celulares muito pequenos) */
-@media (min-width: 320px) and (max-width: 360px) {
+@media (min-width: 319px) and (max-width: 359px) {
     footer {
         padding: 40px 5% 40px;
         z-index: -1;
@@ -450,20 +455,19 @@ footer {
     }
 
     .logo-img {
-        width: 20vh;
+        width: 20.5vh;
         height: auto;
         margin-left: -1vh;
-        margin-bottom: -10px;
+        margin-bottom: 10px;
     }
 
     .social-icons img {
-        width: 3.5vh;
+        width: 3.2vh;
         height: auto;
-        margin-top: -10px;
     }
 
     .footer-content h4 {
-        font-size: 18px;
+        font-size: 19px;
         font-weight: 600;
     }
 
@@ -473,7 +477,6 @@ footer {
     }
 }
 
-/* Para telas entre 768 e 1000 pixels de largura (tablets) */
 @media (min-width: 768px) and (max-width: 1100px) {
     footer {
         padding: 50px 5% 40px;

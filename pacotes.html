@@ -101,9 +101,9 @@
                 <button class="btn-filtro">Voo + Passagem</button>
                 <button class="btn-filtro">Voo + Passagem</button>
             </div>
-            <form action="#" class="form-search">
-                <input type="text" class="search" placeholder="Buscar">
-            </form>
+           
+                <input type="text" class="search" id="search" onkeyup="search()" placeholder="Buscar">
+      
         </div>
     </section>
 
@@ -112,8 +112,11 @@
         <section class="pacotes">
             <div class="header-pacote">
                 <h1 class="titulo-2">Conheça as melhores praias do <span class="estado">Rio de Janeiro</span></h1>
+            
             </div>
             <div class="container-pacotes">
+                
+
                 <div class="card-pacote">
                     <div class="card-img">
                         <img src="img/rio.jpg" alt="">
@@ -126,7 +129,7 @@
                             </span>
                         </div>
                         <div class="titulo-card">
-                            <h1 class="titulo-4">Pacote para Praia Farol</h1>
+                            <h1 class="titulo-4">Pacote para São paulo Farol</h1>
                         </div>
 
                         <div class="voo-item">
@@ -488,6 +491,7 @@
         </section>
     </main>
 
+    <script src="js/search.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

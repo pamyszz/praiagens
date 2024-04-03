@@ -240,34 +240,12 @@ margin: 0 auto;
     width: 25px;
 }
 
-@media only screen and (max-width: 768px) {
-    .sobre-title{
-        width: 90%;
-        top: 35%;
-        text-align: left;
-        font-family: var(--poppins-font);
-        font-weight: 700;
-        color: var(--cor-background);
-        font-size: 1rem;
-        z-index: 1;
-    }
+/* Exemplo de media query para tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 
-    .sobre-text {
-        display: none;
-    }
-
-    .img-sobre {
-        max-width: 100%;
-        height: auto;
-    }
 }
 
-@media only screen and (max-width: 480px) {
-    .sobre-title {
-        font-size: 2rem;
-    }
-
-    .sobre-text {
-        font-size: 1rem;
-    }
+/* Exemplo de media query para celular */
+@media only screen and (max-width: 767px) {
+    
 }

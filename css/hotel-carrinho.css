@@ -10,37 +10,37 @@
     padding: 10px;
 }
 
-
-.container-carrinho {
+.container-carrinho{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     height: auto;
+    padding-top: 20px;
     gap: 20px;
 }
 
-.card-viagem-info {
+.card-viagem-info{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 430px;
+    height: 480px;
     width: 500px;
-    background-color: var(--cor-card);
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #E6E6E6;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;   
 }
 
-.card-resumo {
+.card-resumo{
     width: 350px;
-    height: 430px;
-    background-color: var(--cor-card);
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    height: 480px;
+    background-color: #E6E6E6;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;   
 }
 
-.header-card {
+.header-card{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,27 +49,27 @@
     width: 90%;
 }
 
-.header-card a {
+.header-card a{
     font-weight: 500;
 }
 
-.header-card h6 {
-    margin: 0;
+.header-card h6{
+        margin: 0;
 }
 
-div.icon-voo {
+div.icon-voo{
     display: flex;
     align-items: center;
     gap: 10px;
     height: 100%;
 }
 
-.detalhes-viagem {
+.detalhes-viagem{
     display: flex;
     gap: 10px;
 }
 
-.container-card-detalhes {
+.container-card-detalhes{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -77,132 +77,49 @@ div.icon-voo {
     height: 90%;
     width: 100%;
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 20px;
 }
 
-.container-voo-info {
+.container-voo-info{
     width: 100%;
     height: 55%;
 }
 
-.container-voo-info-voo {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: 55%;
-}
-
-.container-voo-info-total {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    justify-content: space-between;
-}
-
-.preco-detalhes {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    gap: 5px;
-}
-
-.form-turismo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    width: 100%;
-}
-
-.preco {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-}
-
-.preco span {
-    font-weight: 700;
-}
-
-.preco-total {
-    font-size: 2rem;
-}
-
-.reembolso {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30px;
-    width: 130px;
-    border-radius: 10px;
-    color: #0FA96E;
-    border: 2px solid #0FA96E;
-    font-weight: 600;
-    font-size: 0.8rem;
-    background-color: #DCF8E8;
-}
-
-.form-turismo label {
-    margin: 0;
-}
-
-
-.ida-volta {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 50%;
-    width: 100%;
-    gap: 10px;
-}
-
-.ida-volta i {
-    font-size: 1.5rem;
-}
-
-.ida-info {
-    display: flex;
-    flex-direction: column;
-}
-
-.container-hotel-info {
+.container-hotel-info{
     display: flex;
     justify-content: space-between;
     width: 100%;
     height: 80%;
 }
 
-.img-hotel {
+.img-hotel{
     height: 100%;
     width: 160px;
     border-radius: 15px;
 }
 
-.img-hotel img {
+.img-hotel img{
     height: 100%;
     width: 100%;
     border-radius: 15px;
 }
 
-.info-hotel {
+.info-hotel{
     width: 60%;
     height: 100%;
 }
 
-.avaliacao-beneficios {
+.avaliacao-beneficios{
     display: flex;
-    align-items: center;
+   align-items: center;
     gap: 15px;
     width: 100%;
     height: 25px;
     margin-top: 10px;
 }
 
-.nota {
+.nota{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -214,7 +131,7 @@ div.icon-voo {
     border-radius: 3px;
 }
 
-.star {
+.star{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -222,41 +139,40 @@ div.icon-voo {
     font-size: 1.2rem;
 }
 
-.beneficio {
+.beneficio{
     display: flex;
     gap: 5px;
     font-size: 1.2rem;
 }
 
-.entrada-saida {
+.entrada-saida{
     width: 100%;
     height: 70px;
 }
 
-.entrada-saida {
+.entrada-saida{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.entrada,
-.saida {
+.entrada, .saida{
     display: flex;
     gap: 10px;
 }
 
-.quarto-info {
+.quarto-info{
     height: 70px;
     width: 100%;
 }
 
-.cafe {
+.cafe{
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.btn-voo {
+.btn-voo{
     height: 50px;
     border: 1px solid #2723D3;
     color: #2723D3;
@@ -268,261 +184,8 @@ div.icon-voo {
     transition: 0.3s all;
 }
 
-.btn-alerta {
-    height: 50px;
-    border: 1px solid var(--cor-btn-alerta);
-    color: var(--cor-fonte-botoes);
-    font-weight: 600;
-    border-radius: 10px;
-    width: 100%;
-    background-color: var(--cor-btn-alerta);
-    cursor: pointer;
-    transition: 0.3s all;
-}
-
-.btn-voo:hover {
+.btn-voo:hover{
     background-color: #2723D3;
     color: #FFF;
     outline: none;
-}
-
-.btn-alerta:hover {
-    background-color: var(--cor-btn-alerta-hover);
-
-}
-
-.header-section {
-    padding: 60px 0px 20px 0px;
-}
-
-.estado {
-    color: var(--cor-primaria-azul);
-}
-
-/* Listagem de hotéis */
-
-.container-hotel {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    height: auto;
-    width: 100%;
-
-
-}
-
-.card-hotel {
-    display: flex;
-    width: 1000px;
-    height: 350px;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    min-width: 300px;
-}
-
-.hotel-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px;
-    width: 40%;
-    height: 100%;
-}
-
-.hotel-preview {
-    width: 30%;
-    height: 100%;
-}
-
-.hotel-resumo {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-}
-
-.hotel-info>.info-hotel {
-    width: 100%;
-}
-
-.resumo-detalhes {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-}
-
-
-.despesa-hotel {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    gap: 5px;
-}
-
-
-.btn-fundo {
-    background-color: var(--cor-primaria-azul);
-    border: none;
-    color: var(--cor-fonte-botoes);
-}
-
-.btn-fundo:hover {
-    background-color: var(--cor-fonte-hover);
-}
-
-
-.hotel-preview img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-
-}
-#nav-buttons {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-}
-
-
-.modo-noturno{
-    background-color: rgb(47, 47, 47);
-    color: var(--cor-fonte-botoes);
-}
-
-.modo-noturno-card{
-    background-color: rgb(91, 91, 91);
-    color: #fff;
-}
-
-.modo-noturno-texto{
-    color: var(--cor-fonte-botoes);
-}
-
-.modo-noturno-btn{
-    background-color: #2723D3;
-    color: var(--cor-fonte-botoes);
-}
-
-
-@media screen and (max-width: 900px) {
-
-    .container-hotel {
-        flex-direction: row;
-        justify-content: flex-start;
-        width: 100%;
-        overflow: auto;
-    }
-
-
-
-    .card-hotel {
-        flex-direction: column;
-        height: auto;
-        width: 100%;
-    }
-
-    .info-hotel {
-        padding-left: 10px;
-    }
-
-    .hotel-preview {
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-        width: 100%;
-    }
-
-    .hotel-preview img {
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-    }
-
-    .dados-hotel {
-        width: 100%;
-    }
-
-    .card-viagem-info,
-    .card-resumo {
-        width: 100%;
-    }
-
-
-    .container-carrinho {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .header-section {
-        text-align: center;
-    }
-
-    .valor {
-        display: none;
-    }
-
-    .quarto-info {
-        margin-top: 20px;
-    }
-
-
-}
-
-@media screen and (min-width:901px) {
-
-    @media screen and (max-width: 1257px) {
-
-        .container-hotel{
-            justify-content: center;
-            align-items: center;
-        }
-
-        .card-hotel{
-            width: 800px;
-        }
-
-        .info-hotel {
-            padding-left: 10px;
-        }
-
-
-        .container-carrinho {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .card-resumo {
-            width: 500px;
-        }
-
-        .header-section {
-            text-align: center;
-        }
-    }
-
-
-}
-
-
-
-@media screen and (min-width: 1258px) {
-    @media screen and (max-width: 1398px) {
-
-        .card-viagem-info {
-            width: 450px;
-        }
-
-        .info-hotel {
-            padding-left: 10px;
-        }
-
-        .conteudo {
-            max-width: 1300px;
-        }
-
-    }
 }

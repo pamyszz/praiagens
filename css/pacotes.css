@@ -30,7 +30,6 @@
     max-width: 1400px;
     margin: auto;
     height: auto;
-
 }
 
 /* Pacotes */
@@ -82,6 +81,7 @@
     display: flex;
     flex-direction: column;
     padding: 0px 10px;
+    list-style: none;
 }
 
 .container-pacotes {
@@ -194,6 +194,26 @@
     color: var(--cor-primaria-azul);
 }
 
+
+
+.nofound{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.nofound img{
+    height: 300px;
+}
+
+.teste{
+    display: flex;
+}
+.error{
+    display:none;
+}
 
 @media screen and (max-width: 620px) {
 

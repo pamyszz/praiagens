@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<style>
+
+* {
+    font-family: 'Poppins';
+}
+
+    body, html{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       height: 100%;
+       width: 100%;
+    }
+
+    .card{
+        height: 500px;
+        width: 350px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+
+    .card-img{
+        height: 65%;
+        width: 100%;
+
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .card-img img{
+        height: 100%;
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .card-conteudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        height: 35%;
+        padding: 20px;
+    }
+
+    .btn-comprar{
+        height: 50px;
+        width: 130px;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        background-color: var(--cor-primaria-azul);
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .comprar-preco{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    .preco{
+        font-size: 2em;
+        font-weight: 600;
+        color:  var(--cor-primaria-azul);
+    }
+
+    .desconto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color: #fff;
+        font-weight: 600;
+        height: 30px;
+        width: 170px;
+        background-color: orange;
+        position: absolute;
+        top: -15px;
+        
+    }
+
+    
+</style>
+<body>
+
+    <div class="card">
+        <div class="card-img">
+            <img src="img/rio.jpg" alt="">
+        </div>
+
+        <div class="card-conteudo">
+            <div class="desconto">
+                <span>50% de Desconto</span>
+            </div>
+            <div class="titulo">
+                <h3 class="titulo-3">Pacote Rio de Janeiro</h3>
+                <div class="voo-info">
+                    <p class="subtitulo-2">Ida e volta</p>
+                </div>
+            </div>
+
+            <div class="comprar-preco">
+                <button class="btn-comprar">Comprar</button>
+                <span class="preco">R$ 349,90</span>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

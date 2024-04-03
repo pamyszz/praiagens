@@ -352,7 +352,6 @@ footer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(11px, auto));
     gap: 5rem;
-    position: absolute;
     left: 0;
     right: 0;
     bottom: 0;

@@ -1,0 +1,191 @@
+* {
+    font-family: 'Poppins';
+}
+
+.conteudo {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    height: auto;
+    padding: 10px;
+}
+
+.container-carrinho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.card-viagem-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 480px;
+    width: 500px;
+    background-color: #E6E6E6;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;   
+}
+
+.card-resumo{
+    width: 350px;
+    height: 480px;
+    background-color: #E6E6E6;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;   
+}
+
+.header-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    height: 10%;
+    width: 90%;
+}
+
+.header-card a{
+    font-weight: 500;
+}
+
+.header-card h6{
+        margin: 0;
+}
+
+div.icon-voo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.detalhes-viagem{
+    display: flex;
+    gap: 10px;
+}
+
+.container-card-detalhes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.container-voo-info{
+    width: 100%;
+    height: 55%;
+}
+
+.container-hotel-info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+}
+
+.img-hotel{
+    height: 100%;
+    width: 160px;
+    border-radius: 15px;
+}
+
+.img-hotel img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.info-hotel{
+    width: 60%;
+    height: 100%;
+}
+
+.avaliacao-beneficios{
+    display: flex;
+   align-items: center;
+    gap: 15px;
+    width: 100%;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.nota{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 0.8rem;
+    width: 25px;
+    height: 100%;
+    background-color: rgb(8, 117, 41);
+    border-radius: 3px;
+}
+
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 1.2rem;
+}
+
+.beneficio{
+    display: flex;
+    gap: 5px;
+    font-size: 1.2rem;
+}
+
+.entrada-saida{
+    width: 100%;
+    height: 70px;
+}
+
+.entrada-saida{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.entrada, .saida{
+    display: flex;
+    gap: 10px;
+}
+
+.quarto-info{
+    height: 70px;
+    width: 100%;
+}
+
+.cafe{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-voo{
+    height: 50px;
+    border: 1px solid #2723D3;
+    color: #2723D3;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100%;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.btn-voo:hover{
+    background-color: #2723D3;
+    color: #FFF;
+    outline: none;
+}

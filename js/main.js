@@ -26,22 +26,22 @@ function toggleNoturno() {
 function aplicarClassesNoturnas() {
     body.classList.add('modo-noturno');
     carrinho.classList.add('modo-noturno');
-    
+
     // Seleciona todos os elementos de texto dentro do corpo
     var textos = document.querySelectorAll('a, i, body p, body h1, body h2, body h3, body h4, body h5, body h6');
-    textos.forEach(function(texto) {
+    textos.forEach(function (texto) {
         texto.classList.add('modo-noturno-texto');
     });
 
-    cardDetalhes.forEach(function(elemento) {
+    cardDetalhes.forEach(function (elemento) {
         elemento.classList.add('modo-noturno-card');
     });
 
-    botoes.forEach(function(elemento){
+    botoes.forEach(function (elemento) {
         elemento.classList.add('modo-noturno-btn');
     });
 
-    navLink.forEach(function(texto){
+    navLink.forEach(function (texto) {
         texto.classList.add('text-light');
     });
 
@@ -53,21 +53,21 @@ function aplicarClassesNoturnas() {
 function removerClassesNoturnas() {
     body.classList.remove('modo-noturno');
     carrinho.classList.remove('modo-noturno');
-    
+
     var textos = document.querySelectorAll('.modo-noturno-texto');
-    textos.forEach(function(texto) {
+    textos.forEach(function (texto) {
         texto.classList.remove('modo-noturno-texto');
     });
 
-    cardDetalhes.forEach(function(elemento) {
+    cardDetalhes.forEach(function (elemento) {
         elemento.classList.remove('modo-noturno-card');
     });
 
-    botoes.forEach(function(elemento){
+    botoes.forEach(function (elemento) {
         elemento.classList.remove('modo-noturno-btn');
     });
 
-    navLink.forEach(function(texto){
+    navLink.forEach(function (texto) {
         texto.classList.remove('text-light');
     });
 
@@ -75,3 +75,16 @@ function removerClassesNoturnas() {
     cabecalho.classList.remove('modo-noturno');
     cabecalho.classList.add('bg-light');
 }
+
+let modal = document.getElementById('modal-resumo')
+
+let btnReservar = document.getElementById('btn-reserva')
+
+btnReservar.addEventListener('click', ()=>{
+   modal.style.display='flex'
+   modal.style.zIndex='1'
+})
+
+modal.addEventListener('click', ()=>{
+    modal.style.display='none'
+})

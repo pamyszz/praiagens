@@ -81,7 +81,7 @@ div.icon-voo {
     padding: 20px;
 }
 
-.container-card-detalhes a{
+.container-card-detalhes a {
     width: 100%;
 }
 
@@ -296,6 +296,9 @@ div.icon-voo {
 }
 
 .header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 60px 0px 20px 0px;
 }
 
@@ -383,6 +386,7 @@ div.icon-voo {
     border-bottom-left-radius: 20px;
 
 }
+
 #nav-buttons {
     display: flex;
     align-items: center;
@@ -390,24 +394,49 @@ div.icon-voo {
 }
 
 
-.modo-noturno{
+.modo-noturno {
     background-color: rgb(47, 47, 47);
     color: var(--cor-fonte-botoes);
 }
 
-.modo-noturno-card{
+.modo-noturno-card {
     background-color: rgb(91, 91, 91);
     color: #fff;
 }
 
-.modo-noturno-texto{
+.modo-noturno-texto {
     color: var(--cor-fonte-botoes);
 }
 
-.modo-noturno-btn{
+.modo-noturno-btn {
     background-color: #2723D3;
     color: var(--cor-fonte-botoes);
 }
+.none{
+    display: none;
+}
+
+/* Modal */
+
+.modal-resumo{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #1f1f1f8f;
+    position: fixed;
+}
+
+.modal-conteudo{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 1400px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
 
 
 @media screen and (max-width: 900px) {
@@ -480,12 +509,12 @@ div.icon-voo {
 
     @media screen and (max-width: 1257px) {
 
-        .container-hotel{
+        .container-hotel {
             justify-content: center;
             align-items: center;
         }
 
-        .card-hotel{
+        .card-hotel {
             width: 800px;
         }
 
@@ -497,6 +526,15 @@ div.icon-voo {
         .container-carrinho {
             display: flex;
             flex-direction: column;
+        }
+        .container-resumos{
+            display: flex;
+            flex-direction: column;
+            background-color: red;
+            justify-content: space-between;
+            width: 100%;
+            height: auto;
+        
         }
 
         .card-resumo {

@@ -51,7 +51,6 @@ button{
     border-radius: 15px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    z-index: 1;
 }
 
 #P1 div {
@@ -85,7 +84,6 @@ button{
     width: 70%;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
-    z-index: 2;
     margin-bottom: 5px;
     display: flex;
     align-items: center;

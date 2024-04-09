@@ -20,11 +20,11 @@ document.getElementById('BTCP').addEventListener('click', function() {
     document.getElementById('divAbsoluta'). style.display = "block";
 })
 
-document.getElementById('FinalizarCP').addEventListener('click', function() {
+document.getElementById('FinalizarCPA').addEventListener('click', function() {
     document.getElementById('divAbsoluta'). style.display = "none";
     alert("compra efetuada com sucesso!")
 })
-document.getElementById('Cancelar').addEventListener('click', function() {
+document.getElementById('CancelarA').addEventListener('click', function() {
     document.getElementById('divAbsoluta'). style.display = "none";
 })
 

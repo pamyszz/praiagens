@@ -14,14 +14,6 @@ main {
     max-width: 1400px;
     margin: auto;
 }
-
-/* footer {
-    position: relative;
-    background-color: #D9D9D9;
-    height: 2%;
-    width: 100%;
-    } */
-
 body {
     background-color: #e2dfdf51;
 }
@@ -30,9 +22,9 @@ p {
     text-decoration: none;
 }
  
-button{
+button{ 
     border: none;
-}
+ }
 .esconder{
     display: none;
 }
@@ -183,6 +175,8 @@ button{
     padding: 0 !important;
     overflow: hidden;
     float: left;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
@@ -202,11 +196,15 @@ button{
     position: relative;
     text-align: center;
     transition: 0.5s;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 .slide-box img{
     width: 100%;
     height: 100%;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 .nav-manual, .nav-auto{
@@ -565,7 +563,9 @@ Ofertas:focus {
     width: 100%;
     border-radius: 30px;
 }
-
+.ft{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
 .descrição {
     position: relative;
     height: 35%;
@@ -655,6 +655,7 @@ Ofertas:focus {
     background-color: white;
     border-radius: 20px;
     margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 #ARTMotvacional div img {
@@ -702,12 +703,27 @@ Ofertas:focus {
         width: 50%;
         margin-top: 40px;
         margin-left: -100px;
+    }    .nav-manual, .nav-auto{
+        position: absolute;
+        width: 100%;
+        margin-top: 35%;
+        margin-left: -15%;
+        display: flex;
+        justify-content: center;
     }
 }
 @media screen and (max-width: 1080px){
     #BTCP{
         width:60%;
         margin-left: -130px;
+    }
+    .nav-manual, .nav-auto{
+        position: absolute;
+        width: 100%;
+        margin-top: 38%;
+        margin-left: -15%;
+        display: flex;
+        justify-content: center;
     }
 }
 @media screen and (max-width: 1030px){
@@ -766,6 +782,14 @@ Ofertas:focus {
         margin-right: 15px;
         width: 45%;
     }
+    .nav-manual, .nav-auto{
+        position: absolute;
+        width: 100%;
+        margin-top: 46%;
+        margin-left: -15%;
+        display: flex;
+        justify-content: center;
+    }
 }
 @media screen and (max-width: 760px){
     
@@ -786,14 +810,34 @@ Ofertas:focus {
     .textnormal{
         font-size: 12px;
     }
+    .slider-content{
+        width: 580%;
+        height: 100%;
+        display: flex;
+    }
     
-    #Hero img{
-        border-top-right-radius: 35px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-        height: 50%;
+    .slider{
         width: 92%;
+        height: 28%;
+        border-radius: 20px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
         margin-left: 20px;
+    }
+    .slide-box{
+        width: 25%;
+        height: 120%;
+        position: relative;
+        text-align: center;
+        transition: 0.5s;
+    }
+    
+    .slide-box img{
+        width: 100%;
+        height: 100%;
+    }
+    .nav-manual, .nav-auto{
+        display: none;
     }
     #ARTright{
         border-bottom-left-radius: 35px;
@@ -803,7 +847,7 @@ Ofertas:focus {
         margin-left: 20px;
     }
     #txth4{
-        margin-top: -15px;
+        margin-top: 10px;
     }
     #txth4 h4{
         font-size: 15px;
@@ -812,13 +856,13 @@ Ofertas:focus {
         font-size: 15px;
     }
     #txth6{
-        margin-top: 50px;
+        margin-top: 25px;
     }
     #txth6 h6{
         font-size: 15px;
     }
     #txth2{
-        margin-top: -90px;
+        margin-top: -70px;
         margin-left: 450px;
     }
     #txth2 h2{
@@ -826,7 +870,7 @@ Ofertas:focus {
     }
     #BTCP{
         margin: auto;
-        margin-top: -22px;
+        margin-top: 0px;
         width: 90%;
         height: 25%;
         margin-left: 30px;

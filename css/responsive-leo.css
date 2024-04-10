@@ -5,20 +5,22 @@
     .container-title-pacotes{
         flex-direction: column;
         align-items: center;
-        gap: 2rem;
-        margin-bottom: 5rem;
+        gap: 1rem;
+        margin-bottom: 2rem;
     }
     .title-pacotes{
         font-size: 2.5rem;
         text-align: center;
     }
+
     .description-title-pacotes{
-        font-size: 1.5rem;
+        display: none;
     }
+
     .container-title-pacotes a{
         width: 250px;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .mostrar-mais{
         font-size: 2rem;
@@ -31,10 +33,10 @@
         gap: 3rem;
     }
     .box-vr-title h2{
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
     .box-video-vr{
-        width: 50rem;
+        width: 90%;
     }
     .box-vr-title button{
     
@@ -69,7 +71,6 @@
             gap: 2rem;
         }
         .box-video-vr{
-   
             width: 50rem;
         }
     }

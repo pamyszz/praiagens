@@ -99,10 +99,10 @@ form button {
     cursor: pointer;
 }
 
-/* Estilos para telas menores */
+/* telas menores */
 @media screen and (max-width: 600px) {
     
-    .login-container {
+    .container {
         padding: 10px;
     }
 

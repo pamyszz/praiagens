@@ -1,0 +1,418 @@
+/* Variáveis */
+:root {
+    --yellow-color: #FFBB7C;
+    --blue-color: #23B5D3;
+    --white-color: #F4F4F3;
+    --black-color: #2C2C2C;
+    --cor-btn-alerta: #FFBB7C;
+    --poppins-font: "Poppins", sans-serif;
+    --helvetica-neue-font: "Open Sans", sans-serif;
+    font-size: 62.5%;
+}
+body{
+    background-color: var(--white-color);
+    color: #2C2C2C;
+    fill: #2C2C2C;
+}
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.background_transparente{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(50, 50, 50, 80%);
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    visibility: hidden;
+}
+.background_transparente_2{
+    position: fixed;
+    transform:translateY(-100rem);
+    background-color: rgba(50, 50, 50, 80%);
+    z-index: 2;
+
+}
+.background_transparente_3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120rem;
+    background-color: rgba(50, 50, 50, 80%);
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    visibility: hidden;
+}
+.x_leo_user{
+    width: 5rem;
+    position: fixed;
+    left: 0;
+    z-index: 3;
+}
+hr{
+    height: 0.1rem;
+    border-bottom: 0.1rem solid rgba(50, 50, 93, 0.25);
+}
+.nav-page-user{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 350px;
+    margin: 4rem 8rem 0 4rem;
+}
+.nav-page-user p{
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-weight: 500;
+}
+.nav-page-user h2{
+    font-size: 2rem;
+}
+.nav-page-user h3{
+    font-size: 1.5rem;
+}
+.box-data-user{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0rem 5rem;
+}
+
+#text_conta{
+    color: var(--blue-color);
+   
+}
+#text_conta .icon_conta{
+    stroke: var(--blue-color);
+    fill: var(--blue-color);
+} 
+
+.box-name-user{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+.opcao-data{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.icone-sair{
+    margin: 0rem 5rem;
+}
+.column-effect-data-user{
+    display: flex;
+    flex-direction: column;
+}
+.column-effect-data-user h2{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 2.1rem;
+}
+.forms-data-user{
+    width: 800px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin: 6rem 0rem 4.5rem 0rem;
+    border-bottom: 0.3rem solid rgba(50, 50, 93, 0.25);
+}
+.data-user{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    width: 100%;
+}
+.data-user .input-date-user{
+    display: flex;
+    flex-direction: column;
+}
+.data-user div input{
+    border-radius: 8px;
+    border: 0.1rem solid var(--blue-color);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 1rem;
+}
+.data-user div label{
+    margin: 0.5rem 2rem;
+    font-weight: 500;
+}
+#name,#email,#telefone,#contato-emergencia{
+    width: 38rem;
+    
+}
+#cpf,#data-de-nascimento{
+    width: 17.5rem;
+}
+.box-password-and-save{
+    width: 38rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 3rem;
+    gap: 12rem;
+    font-size: 1.2rem;
+}
+.box-password-and-save div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-left: 1rem;
+}
+.password{
+    font-size: 1.6rem;
+}
+#container-alterar-senha{
+    background: var(--white-color);
+    position: absolute;
+    height: 24.4rem;
+    width: 41.7rem;
+    transform:translateY(15rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 0.8rem;
+    
+}
+.alterar_senha_button{
+    transition: 0.5s;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: var(--black-color);
+}
+.alterar_senha_button:hover{
+    color: var(--blue-color);
+    transform: scale(1.01);
+}
+.form-alterar-senha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+.form-alterar-senha input{
+    border: 0.1rem solid var(--blue-color);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 8px;
+}
+.form-alterar-senha label{
+   font-size: 1.6rem;
+   font-weight: 700;
+   margin-left: 1rem;
+  
+}
+.column-effect-password-input{
+    display: flex;
+    flex-direction: column;
+}
+#senha-atual{
+    width: 37rem;
+    height: 3rem;
+}
+#senha-nova,#confirmar-senha-nova{
+    width: 17rem;
+    height: 3rem;
+}
+.box-new-password{
+    display: flex;
+    gap: 3rem;
+}
+.button-save-new-password{
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    padding: 1rem 6rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 3px;
+    border: none;
+}
+.container-data-banker{
+    width: 80rem;
+}
+.banker-box{
+    width: 80%;
+    margin: 4rem auto;
+    height: 40rem;
+    background-color: var(--blue-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 500;
+    border-radius: 0.5rem;
+}
+.box-card-data{
+    position: relative;
+    background-color: var(--white-color);
+    width: 25rem;
+    height: 15rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 2rem;
+    font-size: 1.2rem;
+    transition: 0.8s;
+}
+.box-card-data:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.description-card-data{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.icon-card{
+    width: 3rem;
+    height: 3rem;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+    font-weight: 500;
+    border-radius: 100%;
+    margin-bottom: 2rem;
+}
+.description-add-card{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.1rem;
+}
+.description-add-card img{
+   width: 3rem;
+   height: 3rem;
+}
+.button-save-or-delete{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.button-save-or-delete button{
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    background-color: var(--cor-btn-alerta);
+    color: var(--black-color);
+    margin-bottom: 1.5rem;
+}
+.container-cadastrar-cartao{
+    background-color: var(--white-color);
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 0.4rem;
+
+    position: absolute;
+
+    z-index: 3;
+    padding: 2rem;
+ 
+}
+.container-cadastrar-cartao img{
+    width: 40.8rem;
+}
+.container-cadastrar-cartao .descricao-seguranca-cartao{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.3rem;
+    width: 40rem;
+}
+.forms-cartao-novo{
+    width: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.forms-cartao-novo input{
+    padding: 0.5rem;
+    border: 0.1rem solid var(--blue-color);
+    border-radius: 8px;
+    width: 100%;
+}
+.forms-cartao-novo #nome-titular{
+    width: 40rem;
+}
+.forms-cartao-novo #cpf-cartao,#num-cartao{
+    width: 19rem;
+}
+.forms-cartao-novo #cvv-cartao,#data-expedicao,#cep-cartao{
+    width: 12rem;
+}
+.container-cadastrar-cartao .box-input-cartao-novo{
+    display: flex;
+    flex-direction: column;
+}
+.forms-cartao-novo button{
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    font-weight: 500;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 1rem 5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.container-desativar-conta{
+    width: 30rem;
+    background-color: var(--blue-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: var(--white-color);
+    font-weight: 500;
+
+    position: absolute;
+    transform: translate(25rem, -20rem);
+    z-index: 2;
+    visibility: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.container-desativar-conta .box-button-desativar-conta{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.container-desativar-conta .box-button-desativar-conta button{
+    background-color: var(--white-color);
+    color: var(--blue-color);
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 1rem;
+    width: 10rem;
+    padding: 0.5rem 3rem;
+}
+
+

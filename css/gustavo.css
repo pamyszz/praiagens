@@ -418,7 +418,7 @@ a:hover{
         }
     
         .box-video-vr{
-            width: 100px;
+            width: 100%;
             height: auto;
             box-sizing: border-box;
             padding: 0;

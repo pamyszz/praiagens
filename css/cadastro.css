@@ -50,8 +50,8 @@ form button {
     border-radius: 5px;
 }
 
-#cpf{
-    width: 50%;
+#cpf,#nomeCompleto,#email,#confirmarEmail{
+    width: 100%;
 }
 form #dataNascimento,#telefone,#senha,#confirmarSenha{
     width: 100%;

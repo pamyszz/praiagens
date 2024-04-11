@@ -73,5 +73,9 @@
         .box-video-vr{
             width: 50rem;
         }
+        .box-video-vr iframe{
+            width: 500px;
+            height: 500px;
+        }
     }
 }

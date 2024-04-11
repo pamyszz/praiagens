@@ -10,7 +10,6 @@ let detalheHotel = document.querySelector('#hotel-tipo')
 preco = 1300
 
 
-
 let hotelUm = {
     nome:"Hotel Rio de Janeiro",
     caminhoImagem: "img/rio.jpg",

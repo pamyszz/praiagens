@@ -7,10 +7,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-
     background-size: cover; /* Para cobrir todo o conteúdo da body */
     background-repeat: no-repeat; /* Para não repetir a imagem */
-   
 }
 .login-container {
     background-color: #fff;
@@ -28,7 +26,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-
 
 .login-container form input[type="email"],
 .login-container form input[type="password"] {
@@ -96,8 +93,6 @@ body {
     flex: 1;
     text-align: center;
 }
-
-
 
 
 /* Estilos para telas menores */

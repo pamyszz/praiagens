@@ -22,10 +22,6 @@
     font-family: var(--poppins-font);
 }
 
-header{
-    height: 100px;
-}
-
 section #parte-um{
     width: 100%;
     height: auto;
@@ -73,7 +69,7 @@ section #parte-um{
 }
 
 #hero-text span{
-    font-size: 4.0rem;
+    font-size: 3.5rem;
     font-family: var(--poppins-font);
     color: var(--cor-fonte-titulos1);
     font-weight: 600;
@@ -84,24 +80,24 @@ section #parte-um{
 }
 
 #hero-text p {
-    font-size: 1.5rem;
-    margin-bottom: 22px;
+    font-size: 1.4rem;
+    margin-bottom: 50px;
 }
 
 .botao{
-    padding: 15px;
+    padding: 20px;
     height: 60px;
-    border-radius: 15px;
+    border-radius: 17px;
     background-color: var(--cor-primaria-azul);
     color: var(--cor-fonte-botoes);
     font-weight: 600;
-    font-size: 1.0em;
+    font-size: 1.1em;
     text-align: center;
     transition: color 0.3 ease-in-out;
 }
 
 #botao{
-    font-size: 1.85em;
+    font-size: 1.50em;
 }
 
 .botao > a {
@@ -114,6 +110,7 @@ a:hover{
     background-color: var(--cor-fonte-botoes);
     margin: 6px solid rgb(73, 73, 120);
     cursor: pointer;
+    transition: 0.3s;
 }
 
 #barra-pesquisa {
@@ -173,18 +170,18 @@ a:hover{
 }
 
 #parte-dois h1{
-    font-size: 52px;
+    font-size: 40px;
     font-weight: 600;
 }
 
 #parte-dois p{
-    font-size: 28px;
+    font-size: 25px;
     color: var(--cor-fonte-texto1-transparencia);
 }
 
 #parte-dois div > a{
     margin-right: 30px;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     color: #000000;
 }
@@ -203,6 +200,7 @@ a:hover{
 .cards-destaques{   
     border-radius: 20px;
     width: 300px;
+    height: 390px;
 }
 
 .cards-destaques:hover{
@@ -249,15 +247,15 @@ a:hover{
 }
 
 #parte-tres span{
-    font-size: 4.2rem;
-    font-weight: 500;
+    font-size: 3.9rem;
+    font-weight: 520;
 }
 #parte-tres > .titulo-azul{
     color: var(--cor-primaria-azul);
 }
 
 #parte-tres p{
-    font-size: 32px;
+    font-size: 28px;
     color: var(--cor-fonte-texto1-transparencia);
 }
 
@@ -271,14 +269,14 @@ a:hover{
 }
 
 #selos #img04{
-    height: 100%;
-    width: 80%;
+    height: 95%;
+    width: 78%;
     border-radius: 30px;
 }
 
 
 #selos div {
-    margin: 0px 0px 30px 30px;
+    margin: 0px 0px 70px 30px;
     font-size: 30px;
 }
 
@@ -298,6 +296,10 @@ a:hover{
         }
         #hero-text span{
             font-size: 3rem;
+        }
+        #hero-text p{
+            font-size: 1.5rem;
+            margin-top: 20px;
         }
         .item-hero img{
             display: none;
@@ -325,11 +327,9 @@ a:hover{
             display: flex;
             align-items: center;
             justify-content: center;
-
         }
         #parte-dois h1{
             font-size: 38px;
-
         }
         #parte-dois p{
             font-size: 20px;
@@ -339,7 +339,34 @@ a:hover{
             font-size: 16px;
             text-decoration: none;
         }
-
+        #parte-tres span{
+            font-size: 40px;
+        }
+        #parte-tres p{
+            font-size: 20px;
+        }
+        #selos img{
+            height: 60%;
+        }
+        .botao > a{
+            font-size: 1px;
+        }
+        #selos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;    
+            text-align: center;
+        }
+        #selos div {
+            margin: 30px 0px 30px 0px;
+            font-size: 30px;
+        }
+        .terceira{
+            padding-top: 30px;
+        }
+        .cards-destaques{   
+            margin-bottom: 30px;
+        }
     }
    
     @media screen and (max-width:678px) {

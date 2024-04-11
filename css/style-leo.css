@@ -304,9 +304,6 @@ p {
 .box-video-vr {
     margin: auto;
     width: 800px;
+    margin-bottom: 5rem;
 }
 
-.box-video-vr img {
-    width: 100%;
-    height: 100%;
-}

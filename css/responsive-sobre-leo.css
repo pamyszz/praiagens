@@ -1,0 +1,144 @@
+@media only screen and (max-width:480px){
+    .paragrafo-viajar {
+        width: 30rem;
+    }
+    
+    .card-container {
+        display: flex;
+       flex-direction: column;
+    }
+        
+    .card {
+        gap: 1.5rem; 
+        width: 25rem;
+    }
+    .card strong {
+        font-size: 3rem;
+    }
+    
+    .card p {
+        font-size: 1.5rem;
+    }
+    
+    .card h2 {
+        font-size: 2.5rem;
+    }
+    
+    .card h3 {
+        font-size: 1.2rem;
+    }
+    
+    .buy-button {
+      font-size: 1.5rem;
+    } 
+    .video-container {
+        height: 40rem; 
+    }
+    .faq-list {
+        gap: 2rem;
+        margin-bottom: 8rem;
+    }
+    
+    .faq-list li {
+        font-size: 1.5rem;
+        gap: 1rem;
+    }
+
+    .box-title-quem-somos h2{
+        font-size: 20px;
+    }
+    .box-title-quem-somos p{
+        font-size: 14px;
+        width: 400px;
+
+    }
+    .grid-quem-somos{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .scroller__inner {
+        gap: 100px;  
+    }
+}
+
+@media only screen and (min-width:481px){
+    @media only screen and (max-width:768px){
+        .img-container{
+            height: 6rem;
+            margin-bottom: 2rem;
+        }
+        .sobre-title{
+            font-size: 1.5rem;
+        }
+        .sobre-text{
+            font-size: 1rem;
+            width: 23rem;
+        }
+        .paragrafo-viajar {
+            width: 27rem;
+            font-size: 1.2rem;
+        }
+        
+        .card-container {
+            display: flex;
+           flex-direction: column;
+        }
+            
+        .card {
+            gap: 1rem; 
+            height: 25rem;
+        }
+        .card strong {
+            font-size: 2rem;
+        }
+        
+        .card p {
+            font-size: 1.5rem;
+        }
+        
+        .card h2 {
+            font-size: 2.5rem;
+        }
+        
+        .card h3 {
+            font-size: 1.2rem;
+        }
+        
+        .buy-button {
+          font-size: 1.5rem;
+        } 
+        .video-container {
+            height: 30rem; 
+        }
+        .faq-list {
+            gap: 2rem;
+            margin-bottom: 5rem;
+        }
+        
+        .faq-list li {
+            font-size: 1rem;
+            gap: 1rem;
+            width: 90%;
+        }
+
+        .box-title-quem-somos{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+        }
+        .box-title-quem-somos h2{
+            font-size: 20px;
+        }
+        .box-title-quem-somos p{
+            font-size: 16px;
+            width: 450px;
+
+        }
+        .grid-quem-somos{
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .scroller__inner {
+            gap: 80px;}
+    }
+}

@@ -10,7 +10,6 @@ let detalheHotel = document.querySelector('#hotel-tipo')
 preco = 0
 
 
-
 let hotelUm = {
     nome:"Hotel Palace",
     caminhoImagem: "img/hotel copacabana.webp",

@@ -26,7 +26,7 @@ Seja bem-vindo ao *Praiagens*, o seu guia definitivo para explorar as mais belas
 
 - Modo noturno disponível em algumas páginas para uma experiência de navegação mais confortável.
 
-### ** 🍹 Acesse o *Praiagens*:**
+### 🍹 Acesse o *Praiagens*:
 
 Explore o nosso site em [Praiagens](https://praiagens-ovij.vercel.app/) e comece a planejar a sua próxima aventura na praia!
 

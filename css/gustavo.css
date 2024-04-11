@@ -413,4 +413,8 @@ a:hover{
         #selos p{
             font-size: 15px;
         }
+
+        .box-video-vr{
+            width: 50rem;
+        }
     }

@@ -418,10 +418,10 @@ a:hover{
         }
 
         .box-video-vr{
-            width: 100px;
-            height: auto;
-            margin: 0px;
-            padding: 0;
-            box-sizing: border-box;
+    width: 100px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
         }
     }

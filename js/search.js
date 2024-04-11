@@ -1,4 +1,34 @@
 let nofound = document.querySelector('#nofound')
+let idaVolta = document.querySelector('#ida-volta');
+let apenasIda = document.querySelector('#apenas-ida');
+let cards = document.querySelectorAll('.card-pacote');
+
+idaVolta.addEventListener('click', filtraIda);
+apenasIda.addEventListener('click', filtroApenasIda);
+
+function filtraIda() {
+    cards.forEach(function(card) {
+        let info = card.querySelector('#voo-info'); // Seletor para o elemento de texto dentro do card
+        if (info.textContent.trim().toLowerCase() !== "ida e volta") {
+            card.style.display = "none";
+        } else {
+            card.style.display = "block";
+        }
+    });
+}
+
+function filtroApenasIda() {
+    cards.forEach(function(card) {
+        let info = card.querySelector('#voo-info').textContent.trim().toLowerCase(); // Pegando o texto do elemento dentro do card
+        if (info === "apenas ida") {
+            card.style.display = "block";
+        } else {
+            card.style.display = "none";
+        }
+    });
+}
+
+
 
 function search(){
     let input = document.querySelector('#search').value

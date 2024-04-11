@@ -15,7 +15,7 @@
     <title>Pacotes</title>
 </head>
 
-<body>
+<body class="pagina">
 
     <header class="desktop-header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -43,7 +43,11 @@
                     </li>
                 </ul>
                 <div id="nav-buttons">
-                    <a href="#">Entrar</a>
+                    <div class="noturno">
+                        <div class="noturno-escolha">
+                        </div>
+                    </div>
+                    <a href="#" class="nav-link">Entrar</a>
                     <button>Cadastro</button>
                 </div>
             </div>
@@ -78,6 +82,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Promoções</a>
                     </li>
+
+                    <li class="nav-item">
+                        <div class="noturno">
+                            <div class="noturno-escolha">
+                            </div>
+                        </div>
+                    </li>
                 </ul>
                 <div id="ajuda-mobile">
                     <h3 class="titulo-2">Ajuda</h3>
@@ -98,8 +109,8 @@
             <h1 class="titulo-1">Pacotes de viagem</h1>
             <h2 class="subtitulo">Todos hotéis ja estão com o preço da passagem incluso</h2>
             <div class="container-btn-filtro">
-                <button class="btn-filtro">Voo + Passagem</button>
-                <button class="btn-filtro">Voo + Passagem</button>
+                <button class="btn-filtro" id="ida-volta">Ida e volta</button>
+                <button class="btn-filtro" id="apenas-ida">Apenas ida</button>
             </div>
 
             <input type="text" class="search" id="search" onkeyup="search()" placeholder="Buscar">
@@ -130,17 +141,17 @@
                         <img src="img/rio.jpg" alt="">
                     </div>
 
-                    <div class="card-info">
+                    <div class="card-info ">
                         <div class="oferta">
                             <span class="subtitulo-2">
                                 50% Desconto
                             </span>
                         </div>
-                        <div class="titulo-card">
-                            <h1 class="titulo-4">Pacote para São paulo Farol</h1>
+                        <div class="titulo-card ">
+                            <h1 class="titulo-4 ">Pacote para São paulo Farol</h1>
                             <div class="voo-item">
                                 <i class="fa-solid fa-plane"></i>
-                                <h2 class="subtitulo-2">Ida e volta</h2>
+                                <h2 class="subtitulo-2" id="voo-info" id="voo-info">Ida e volta</h2>
                             </div>
                         </div>
 
@@ -149,7 +160,7 @@
                         <div class="voo-info">
                             <div class="preco-confirm">
                                 <span class="preco">R$ 600,00</span>
-                                <a href="hotel-carrinho.html"><button class="btn-comprar">Comprar</button></a> 
+                                <a href="hotel-carrinho.html"><button class="btn-comprar">Comprar</button></a>
                             </div>
                         </div>
                     </div>
@@ -170,37 +181,7 @@
                             <h1 class="titulo-4">Pacote para São paulo Farol</h1>
                             <div class="voo-item">
                                 <i class="fa-solid fa-plane"></i>
-                                <h2 class="subtitulo-2">Ida e volta</h2>
-                            </div>
-                        </div>
-
-
-
-                        <div class="voo-info">
-                            <div class="preco-confirm">
-                                <span class="preco">R$ 600,00</span>
-                                <button class="btn-comprar">Comprar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card-pacote">
-                    <div class="card-img">
-                        <img src="img/rio.jpg" alt="">
-                    </div>
-
-                    <div class="card-info">
-                        <div class="oferta">
-                            <span class="subtitulo-2">
-                                50% Desconto
-                            </span>
-                        </div>
-                        <div class="titulo-card">
-                            <h1 class="titulo-4">Pacote para São paulo Farol</h1>
-                            <div class="voo-item">
-                                <i class="fa-solid fa-plane"></i>
-                                <h2 class="subtitulo-2">Ida e volta</h2>
+                                <h2 class="subtitulo-2" id="voo-info" id="voo-info">Apenas ida</h2>
                             </div>
                         </div>
 
@@ -230,7 +211,37 @@
                             <h1 class="titulo-4">Pacote para São paulo Farol</h1>
                             <div class="voo-item">
                                 <i class="fa-solid fa-plane"></i>
-                                <h2 class="subtitulo-2">Ida e volta</h2>
+                                <h2 class="subtitulo-2" id="voo-info">Ida e volta</h2>
+                            </div>
+                        </div>
+
+
+
+                        <div class="voo-info">
+                            <div class="preco-confirm">
+                                <span class="preco">R$ 600,00</span>
+                                <button class="btn-comprar">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-pacote">
+                    <div class="card-img">
+                        <img src="img/rio.jpg" alt="">
+                    </div>
+
+                    <div class="card-info">
+                        <div class="oferta">
+                            <span class="subtitulo-2">
+                                50% Desconto
+                            </span>
+                        </div>
+                        <div class="titulo-card">
+                            <h1 class="titulo-4">Pacote para São paulo Farol</h1>
+                            <div class="voo-item">
+                                <i class="fa-solid fa-plane"></i>
+                                <h2 class="subtitulo-2" id="voo-info">Ida e volta</h2>
                             </div>
                         </div>
 
@@ -270,7 +281,7 @@
 
                         <div class="voo-item">
                             <i class="fa-solid fa-plane"></i>
-                            <h2 class="subtitulo-2">Ida e volta</h2>
+                            <h2 class="subtitulo-2" id="voo-info">Ida e volta</h2>
                         </div>
 
                         <div class="voo-info">
@@ -300,7 +311,7 @@
 
                         <div class="voo-item">
                             <i class="fa-solid fa-plane"></i>
-                            <h2 class="subtitulo-2">Ida e volta</h2>
+                            <h2 class="subtitulo-2" id="voo-info">Ida e volta</h2>
                         </div>
 
                         <div class="voo-info">
@@ -330,7 +341,7 @@
 
                         <div class="voo-item">
                             <i class="fa-solid fa-plane"></i>
-                            <h2 class="subtitulo-2">Ida e volta</h2>
+                            <h2 class="subtitulo-2" id="voo-info">Ida e volta</h2>
                         </div>
 
                         <div class="voo-info">
@@ -360,7 +371,7 @@
 
                         <div class="voo-item">
                             <i class="fa-solid fa-plane"></i>
-                            <h2 class="subtitulo-2">Ida e volta</h2>
+                            <h2 class="subtitulo-2" id="voo-info">Ida e volta</h2>
                         </div>
 
                         <div class="voo-info">
@@ -396,7 +407,7 @@
 
                         <div class="voo-item">
                             <i class="fa-solid fa-plane"></i>
-                            <h2 class="subtitulo-2">Apenas ida</h2>
+                            <h2 class="subtitulo-2" id="voo-info">Apenas ida</h2>
                         </div>
 
                         <div class="voo-info">
@@ -426,7 +437,7 @@
 
                         <div class="voo-item">
                             <i class="fa-solid fa-plane"></i>
-                            <h2 class="subtitulo-2">Ida e volta</h2>
+                            <h2 class="subtitulo-2" id="voo-info">Ida e volta</h2>
                         </div>
 
                         <div class="voo-info">
@@ -456,19 +467,20 @@
 
                         <div class="voo-item">
                             <i class="fa-solid fa-plane"></i>
-                            <h2 class="subtitulo-2">Ida e volta</h2>
+                            <h2 class="subtitulo-2" id="voo-info">Ida e volta</h2>
                         </div>
 
                         <div class="voo-info">
                             <div class="preco-confirm">
                                 <span>R$ 600,00</span>
-                                <button class="btn-comprar">Comprar</button>
+                                <button class="btn-comprar" hidden>Comprar</button>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="card-pacote">
+                    <div class="formulario" hidden></div>
                     <div class="card-img">
                         <img src="img/rio.jpg" alt="">
                     </div>
@@ -486,7 +498,7 @@
 
                         <div class="voo-item">
                             <i class="fa-solid fa-plane"></i>
-                            <h2 class="subtitulo-2">Ida e volta</h2>
+                            <h2 class="subtitulo-2" id="voo-info">Ida e volta</h2>
                         </div>
 
                         <div class="voo-info">
@@ -497,6 +509,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
     </main>
@@ -505,7 +518,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+    <script src="js/modo-noturno.js"></script>
 </body>
 
 </html>

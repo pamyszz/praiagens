@@ -16,10 +16,64 @@
 
 <body class="teste">
 
-    <section class="modal-resumo" id="modal-resumo">
-        <div class="modal-conteudo">        
+
+
+    <section class="modal-resumo" id="modal-resumo-hotel">
+        <div class="modal-conteudo-hotel modal-hotel">
+            <div class="detalhes-titulo">
+
+                <h1 class="titulo-4">Detalhes do hotel</h1>
+
+                <i class="fa-solid fa-xmark" id="close"></i>
+            </div>
+
+
+            <div class="container-detalhes-hotel">
+                <div class="container-img-hotel">
+                    <!-- <div id="carouselExampleIndicators" class="carousel slide ar">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/rio.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/imgbagagem.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/praiagens airlines.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden"></span>
+                        </button>
+                    </div> -->
+                </div>
+                <div class="texto-hotel">
+                    <h1 class="titulo-4">Sobre a hospedagem</h1>
+                    <p class="texto-hotel">o Hotel Atlântico Avenida fica de frente para a movimentada Avenida Rio
+                        Branco. O hotel está situado a apenas 3 km do Aeroporto Santos Dumont e oferece Wi-Fi gratuito
+                        nas áreas comuns. permite 1 criança ate 6 anos na mesma cama que os pais. Hotel não possui
+                        estacionamento, porém existe um próximo. Funcionamento: De segunda a sexta, das 7 às 21 horas.
+                        Valor cobrado por dia - á consultar “Horário do café da manhã – 6:00 as 09:00 horas”</p>
+                    <button class="btn btn-primary">Ver no mapa</button>
+                </div>
+            </div>
         </div>
-        
+
     </section>
     <header class="desktop-header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -109,15 +163,15 @@
 
             <div class="container-carrinho">
                 <div class="card-viagem-info">
-                    <div class="header-card">
+                    <div class="header-card ">
                         <div class="icon-voo">
                             <i class="fa-solid fa-plane" style="color: #1e3050;"></i>
                             <h7>Voo</h7>
                         </div>
 
                         <div class="detalhes-viagem">
-                            <a href="">Detalhes Ida</a>
-                            <a href="">Detalhes Volta</a>
+                            <!-- <a id="detalhes-ida" href="#">Detalhes Ida</a>
+                            <a id="detalhes-volta" href="#">Detalhes Volta</a> -->
                         </div>
                     </div>
                     <div class="container-card-detalhes">
@@ -135,7 +189,7 @@
 
                                 <div class="ida-info">
                                     <h1 class="titulo-5">Total: 1h 15min</h1>
-                                    <h2 class="subtitulo-2">Total: 1h 15min</h1>
+                                    <h2 class="subtitulo-2">Voo direto</h1>
                                 </div>
 
                                 <div class="ida-info">
@@ -158,7 +212,7 @@
 
                                 <div class="ida-info">
                                     <h1 class="titulo-5">Total: 1h 15min</h1>
-                                    <h2 class="subtitulo-2">Total: 1h 15min</h1>
+                                    <h2 class="subtitulo-2">Voo direto</h1>
                                 </div>
 
                                 <div class="ida-info">
@@ -180,7 +234,7 @@
                         </div>
 
                         <div class="detalhes-viagem">
-                            <a href="">Detalhes do Hotel</a>
+                            <a id="detalhes-hotel" href="#">Detalhes do Hotel</a>
                         </div>
                     </div>
                     <div class="container-card-detalhes">
@@ -250,7 +304,7 @@
                         </div>
 
                         <div class="detalhes-viagem">
-                            <a href="">Detalhes do Hotel</a>
+                            <!-- <a href="">Detalhes do Hotel</a> -->
                         </div>
                     </div>
                     <div class="container-card-detalhes">
@@ -276,7 +330,9 @@
 
                             </div>
                         </div>
-                        <button class="btn-alerta" id="btn-reserva">Reservar agora</button>
+                        <a href="pagamento.html">
+                            <button class="btn-alerta" id="btn-reserva">Reservar agora</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -418,8 +474,10 @@
 
     </main>
 
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="js/detalhes.js"></script>
     <script src="js/carrinho.js"></script>
     <script src="js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

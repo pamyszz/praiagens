@@ -1,0 +1,36 @@
+* {
+    font-family: 'Poppins';
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.container-success{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    height: 400px;
+    width: 700px;
+    
+}
+
+img{
+    height: 100px;
+}

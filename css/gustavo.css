@@ -420,5 +420,8 @@ a:hover{
         .box-video-vr{
             width: 50%;
             height: auto;
+            margin: 0px;
+            padding: 0;
+            box-sizing: border-box;
         }
     }

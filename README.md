@@ -2,7 +2,7 @@
 
 
 
-## Bem-vindo ao *Praiagens*! 🌊
+## Bem-vindo(a) ao *Praiagens*! 🌊
 
 **Descubra as Melhores Viagens de Praia do Brasil**
 

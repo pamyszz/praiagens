@@ -84,10 +84,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     
-function saudacao_com_nome(emailInput){
-    alert ("OLA " + nome + ", como vai?")
+//function saudacao_com_nome(emailInput){
+   // alert ("OLA " + nome + ", como vai?")
 
 }
 
    
-});
+);

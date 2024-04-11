@@ -1,11 +1,13 @@
 @media only screen and (max-width:480px){
+    .img-container{
+        display: none;
+    }
     .titulo-viajar{
         font-size: 1.5rem;
         
-        
     }
     .paragrafo-viajar {
-        width: 20rem;
+        width: 15rem;
         font-size: 0.8rem;
     }
     
@@ -15,51 +17,62 @@
     }
         
     .card {
-        gap: 1.5rem; 
-        width: 25rem;
+        gap: 0.5rem; 
+        width: 15rem;
     }
     .card strong {
-        font-size: 3rem;
-    }
-    
-    .card p {
-        font-size: 1.5rem;
-    }
-    
-    .card h2 {
-        font-size: 2.5rem;
-    }
-    
-    .card h3 {
         font-size: 1.2rem;
     }
     
+    .card p {
+        font-size: 1rem;
+    }
+    
+    .card h2 {
+        font-size: 1.6rem;
+    }
+    
+    .card h3 {
+        font-size: 1rem;
+    }
+    
     .buy-button {
-      font-size: 1.5rem;
+      font-size: 1rem;
     } 
     .video-container {
-        height: 40rem; 
+        height: 20rem; 
+    }
+    .duvidas h2{
+        font-size: 1rem;
     }
     .faq-list {
         gap: 2rem;
         margin-bottom: 8rem;
+        width: 100%;
     }
     
     .faq-list li {
-        font-size: 1.5rem;
+        font-size: 0.8rem;
         gap: 1rem;
-    }
+        width: 100%;
 
+    }
+    .faq-list li img {
+        width: 15px;
+    }
     .box-title-quem-somos h2{
         font-size: 20px;
     }
     .box-title-quem-somos p{
-        font-size: 14px;
-        width: 400px;
+        font-size: 10px;
+        width: 250px;
 
     }
     .grid-quem-somos{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .b-color-blue{
+        font-size: 1rem;
     }
     .scroller__inner {
         gap: 100px;  
@@ -70,7 +83,7 @@
     @media only screen and (max-width:768px){
         .img-container{
             height: 6rem;
-            margin-bottom: 2rem;
+            margin-bottom: 5rem;
         }
         .sobre-title{
             font-size: 1.5rem;
@@ -143,6 +156,30 @@
         }
         .grid-quem-somos{
             grid-template-columns: repeat(2, 1fr);
+        }
+        .coluna .bx-1,.bx-3{
+            height: 130px;
+        }
+        .coluna .bx-2,.bx-4,.bx-10{
+            height: 200px;
+        }
+        .coluna .bx-5,.bx-7,.bx-14{
+            height: 150px;
+        }
+        .coluna .bx-6,.bx-13{
+            height: 220px;
+        }
+        .coluna .bx-8,.bx-9{
+            height: 110px
+        }
+        .coluna .bx-11{
+            height: 200px
+        }
+        .coluna .bx-12{
+            height: 280px;
+        }
+        .b-color-blue{
+            font-size: 0.9rem;
         }
         .scroller__inner {
             gap: 80px;}

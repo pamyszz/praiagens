@@ -9,11 +9,11 @@
     align-items: center;
     width: 100%;
     height: 350px;
-    background-image: url('/img/rio.PNG');
+    background-image: url('img/rio.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: red;
+    background-color: rgb(87, 87, 187);
 }
 
 .container-titulo {
@@ -251,7 +251,7 @@
     display:none;
 }
 .lupa{
-    position: absolute;
+display: none;
     top: 243px;
     left: 510px;
     opacity: 80%;
@@ -371,6 +371,7 @@
             width: 24%;
             min-width: 100px;
         }
+
 
     }
 }

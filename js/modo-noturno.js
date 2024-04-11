@@ -80,7 +80,7 @@ function removerClassesNoturnas() {
 
     escolhaNoturno.classList.remove('noturno-on');
     cabecalho.classList.remove('modo-noturno');
-    cabecalho.classList.remove('bg-light');
+    cabecalho.classList.add('cor-cabecalho')
 }
 
 

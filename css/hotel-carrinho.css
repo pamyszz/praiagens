@@ -416,6 +416,22 @@
 
 /* Modal */
 
+.container-img-hotel img{
+    height: 100%;
+    width: 100%;
+}
+
+.preco-detalhes ul li{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.resumo-detalhes ul li{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 .modal-resumo, #modal-resumo-hotel{
     display: none;
     justify-content: center;
@@ -441,6 +457,13 @@
 
 .modal-hotel{
     width: 800px;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+ 
+  list-style: none;
 }
 
 .detalhes-titulo{

@@ -12,6 +12,16 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Hoteis + Carrinho</title>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 </head>
 
 <body class="teste">
@@ -30,6 +40,7 @@
 
             <div class="container-detalhes-hotel">
                 <div class="container-img-hotel">
+                    <img src="img/hotel copacabana.webp" alt="">
                     <!-- <div id="carouselExampleIndicators" class="carousel slide ar">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -63,13 +74,14 @@
                     </div> -->
                 </div>
                 <div class="texto-hotel">
-                    <h1 class="titulo-4">Sobre a hospedagem</h1>
-                    <p class="texto-hotel">o Hotel Atlântico Avenida fica de frente para a movimentada Avenida Rio
-                        Branco. O hotel está situado a apenas 3 km do Aeroporto Santos Dumont e oferece Wi-Fi gratuito
-                        nas áreas comuns. permite 1 criança ate 6 anos na mesma cama que os pais. Hotel não possui
-                        estacionamento, porém existe um próximo. Funcionamento: De segunda a sexta, das 7 às 21 horas.
-                        Valor cobrado por dia - á consultar “Horário do café da manhã – 6:00 as 09:00 horas”</p>
-                    <button class="btn btn-primary">Ver no mapa</button>
+                    <h1 class="titulo-4">Copacabana Palace </h1>
+                    <p class="texto-hotel">O Copacabana Palace, localizado à beira-mar na famosa praia de Copacabana, é
+                        uma verdadeira joia no coração do Rio de Janeiro. Este elegante hotel 5 estrelas oferece uma
+                        experiência única de glamour e luxo, relembrando o charme do Brasil dos anos dourados. Aqui
+                        estão algumas razões para escolher o Copacabana Palace:</p>
+                    <a
+                        href="https://www.google.com/maps/search/hotel+palace/@-23.5804236,-46.8347756,11z/data=!3m1!4b1?entry=ttu"><button
+                            class="btn btn-primary">Ver no mapa</button></a>
                 </div>
             </div>
         </div>
@@ -88,16 +100,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Início</a>
+                        <a class="nav-link" href="index.html">Início</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
+                        <a class="nav-link" href="sobre.html">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pacotes</a>
+                        <a class="nav-link" href="pacotes.html">Pacotes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Promoções</a>
+                        <a class="nav-link" href="pacotes.html">Promoções</a>
                     </li>
                 </ul>
                 <div id="nav-buttons">
@@ -311,10 +323,18 @@
                         <div class="container-voo-info-total">
                             <div class="preco-detalhes">
                                 <h3 class="titulo-4">Total</h1>
-                                    <p class="subtitulo-2">Valor da passagem:</p>
-                                    <p class="subtitulo-2">Valor da passagem:</p>
-                                    <p class="subtitulo-2">Valor da passagem:</p>
-                                    <p class="subtitulo-2">Valor da passagem:</p>
+                                    <ul class="lista">
+                                        <li>
+                                            <p class="subtitulo-2">Valor da passagem:</p>
+                                            <span>1.300</span>
+                                        </li>
+                                  
+                                 
+                                        <li>
+                                            <p class="subtitulo-2">Taxas e impostos</p>
+                                            <span>1.300</span>
+                                        </li>
+                                    </ul>
                                     <form class="form-turismo" action="#">
                                         <input type="checkbox">
                                         <label for="">Precisa de guia turismo?</label>
@@ -326,7 +346,7 @@
                                     <span>Reembolsavel</span>
                                 </div>
                                 <div class="total-preco"><span>R$</span> <span class="preco-total"
-                                        id="preco-total">300.00</span></div>
+                                        id="preco-total">0.00</span></div>
 
                             </div>
                         </div>
@@ -348,7 +368,7 @@
             <div class="container-hotel">
                 <div class="card-hotel">
                     <div class="hotel-preview">
-                        <img src="img/rio.jpg" alt="" id="imagem-hotel-um">
+                        <img src="img/hotel copacabana.webp" alt="" id="imagem-hotel-um">
                     </div>
 
                     <div class="hotel-info dados-hotel">
@@ -359,7 +379,8 @@
 
                             <div class="hotel-local">
                                 <h2 class="subtitulo-2" id="desc-hotel-um">Hotel & Spa Lage de Itaúna, 1900</h2>
-                                <a href="#">Veja no mapa</a>
+                                <a href="https://www.google.com/maps/search/hotel+palace/@-23.5804236,-46.8347756,11z/data=!3m1!4b1?entry=ttu"
+                                    target="_blank">Veja no mapa</a>
                             </div>
 
                             <div class="avaliacao-beneficios">
@@ -389,8 +410,18 @@
                         <div class="resumo-detalhes">
                             <div class="despesa-hotel">
                                 <h3 class="titulo-4 valor">Valor do pacote com este hotel:</h1>
-                                    <p class="subtitulo-2">Valor da passagem:</p>
-                                    <p class="subtitulo-2">Valor da passagem:</p>
+                                    <ul class="lista">
+                                        <li>
+                                            <p class="subtitulo-2">Valor da passagem:</p>
+                                            <span>1.300</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="lista">
+                                        <li>
+                                            <p class="subtitulo-2">Taxas e impostos</p>
+                                            <span>1.300</span>
+                                        </li>
+                                    </ul>
 
                             </div>
 
@@ -407,7 +438,7 @@
 
                 <div class="card-hotel">
                     <div class="hotel-preview">
-                        <img src="img/saopaulo.jpg" alt="" id="imagem-hotel-2">
+                        <img src="img/hotelCanada.jpg" alt="" id="imagem-hotel-2">
                     </div>
 
                     <div class="hotel-info dados-hotel">
@@ -448,8 +479,18 @@
                         <div class="resumo-detalhes">
                             <div class="despesa-hotel">
                                 <h3 class="titulo-4 valor">Valor do pacote com este hotel:</h1>
-                                    <p class="subtitulo-2">Valor da passagem:</p>
-                                    <p class="subtitulo-2">Valor da passagem:</p>
+                                    <ul class="lista">
+                                        <li>
+                                            <p class="subtitulo-2">Valor da passagem:</p>
+                                            <span>1.300</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="lista">
+                                        <li>
+                                            <p class="subtitulo-2">Taxas e impostos</p>
+                                            <span>1.300</span>
+                                        </li>
+                                    </ul>
 
                             </div>
 
@@ -464,6 +505,145 @@
                     </div>
                 </div>
 
+                <div class="card-hotel">
+                    <div class="hotel-preview">
+                        <img src="img/atlantico.jpg" alt="" id="imagem-hotel-2">
+                    </div>
+
+                    <div class="hotel-info dados-hotel">
+                        <div class="info-hotel">
+                            <h1 class="titulo-2" id="titulo-hotel-2">
+                                Hotel Atlântico Business
+                            </h1>
+
+                            <div class="hotel-local">
+                                <h2 class="subtitulo-2" id="desc-hotel-2">Rua Senador Dantas, 25, Centro do Rio de
+                                    Janeiro, Rio de Janeiro</h2>
+                                <a href="https://www.google.com/maps?sca_esv=1ac063025a92ebf4&sca_upv=1&rlz=1C1ONGR_pt-PTBR1087BR1087&output=search&q=hotel+atlantico+business&source=lnms&entry=mc&ved=1t:200715&ictx=111"
+                                    target="_blank">Veja no mapa</a>
+                            </div>
+
+                            <div class="avaliacao-beneficios">
+                                <div class="star">
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                </div>
+                                <div class="beneficio">
+                                    <i class="fa-solid fa-snowflake"></i>
+                                    <i class="fa-solid fa-wifi"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quarto-info">
+                            <h1 class="titulo-4" id="tipo-hotel-2">1x Quarto Econômico</h1>
+                            <div class="cafe">
+                                <i class="fa-solid fa-mug-hot subtitulo-2"></i>
+                                <h2 class="subtitulo-2">Com café da manhã</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hotel-resumo">
+                        <div class="resumo-detalhes">
+                            <div class="despesa-hotel">
+                                <h3 class="titulo-4 valor">Valor do pacote com este hotel:</h1>
+                                    <ul class="lista">
+                                        <li>
+                                            <p class="subtitulo-2">Valor da passagem:</p>
+                                            <span>1.300</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="lista">
+                                        <li>
+                                            <p class="subtitulo-2">Taxas e impostos</p>
+                                            <span>1.300</span>
+                                        </li>
+                                    </ul>
+
+                            </div>
+
+                            <div class="preco">
+                                <h3 class="titulo-4">Valor:</h3>
+                                <div class="total-preco"><span class="estado">R$</span> <span class="titulo-2 estado"
+                                        id="preco-hotel-2">1.333</span></div>
+
+                            </div>
+                        </div>
+                        <button class="btn-voo btn-fundo" id="seleciona-hotel-2">Reservar agora</button>
+                    </div>
+                </div>
+                <div class="card-hotel">
+                    <div class="hotel-preview">
+                        <img src="img/hotel copacabana.webp" alt="" id="imagem-hotel-um">
+                    </div>
+
+                    <div class="hotel-info dados-hotel">
+                        <div class="info-hotel">
+                            <h1 class="titulo-2" id="titulo-hotel-um">
+                                Hotel Palace
+                            </h1>
+
+                            <div class="hotel-local">
+                                <h2 class="subtitulo-2" id="desc-hotel-um">Hotel localizado em Copacabana</h2>
+                                <a href="https://www.google.com/maps/search/hotel+palace/@-23.5804236,-46.8347756,11z/data=!3m1!4b1?entry=ttu"
+                                    target="_blank">Veja no mapa</a>
+                            </div>
+
+                            <div class="avaliacao-beneficios">
+                                <div class="star">
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                </div>
+                                <div class="beneficio">
+                                    <i class="fa-solid fa-snowflake"></i>
+                                    <i class="fa-solid fa-wifi"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quarto-info">
+                            <h1 class="titulo-4" id="tipo-hotel">1x Quarto Econômico</h1>
+                            <div class="cafe">
+                                <i class="fa-solid fa-mug-hot subtitulo-2"></i>
+                                <h2 class="subtitulo-2">Com café da manhã</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hotel-resumo">
+                        <div class="resumo-detalhes">
+                            <div class="despesa-hotel">
+                                <h3 class="titulo-4 valor">Valor do pacote com este hotel:</h1>
+                                    <ul class="lista">
+                                        <li>
+                                            <p class="subtitulo-2">Valor da passagem:</p>
+                                            <span>1.300</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="lista">
+                                        <li>
+                                            <p class="subtitulo-2">Taxas e impostos</p>
+                                            <span>1.300</span>
+                                        </li>
+                                    </ul>
+
+                            </div>
+
+                            <div class="preco">
+                                <h3 class="titulo-4">Valor:</h3>
+                                <div class="total-preco"><span class="estado">R$</span> <span class="titulo-2 estado"
+                                        id="preco-hotel-um">3.000</span></div>
+
+                            </div>
+                        </div>
+                        <button class="btn-voo btn-fundo" id="seleciona-hotel-1">Reservar agora</button>
+                    </div>
+                </div>
 
             </div>
             </div>

@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
@@ -8,31 +7,24 @@
 }
 
 main {
-    background-color: F1F1F1;
-    height: 2300px;
+    height: auto;
     width: 100%;
     max-width: 1400px;
     margin: auto;
 }
-body {
-    background-color: #e2dfdf51;
+button {
+    border: none;
 }
 
-p {
-    text-decoration: none;
-}
- 
-button{ 
-    border: none;
- }
-.esconder{
+.esconder {
     display: none;
 }
+
 #SECP1 {
     position: relative;
-    height: 6%;
+    height: 8%;
     width: 100%;
-    margin-top: 45px;
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,6 +67,7 @@ button{
 
 #P1 div p {
     font-size: 20px;
+    margin-top: 15px;
 }
 
 #P2 {
@@ -88,11 +81,12 @@ button{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 5px;
 }
 
 #DV1P2 {
     position: relative;
-    height: 80%;
+    height: 70%;
     width: 40%;
     border-radius: 15px;
     border: 1px rgb(113, 110, 110) solid;
@@ -137,7 +131,7 @@ button{
 
 #DV3P2 {
     position: relative;
-    height: 80%;
+    height: 65px;
     width: 12%;
     border-radius: 15px;
     border: 1px rgb(113, 110, 110) solid;
@@ -159,13 +153,13 @@ button{
 
 #Hero {
     position: relative;
-    height: 20%;
+    height:450px;
     width: 100%;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
-.slider{
+.slider {
     margin-left: 20px;
     margin: 0 auto;
     width: 68%;
@@ -178,17 +172,18 @@ button{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-.slider-content{
+.slider-content {
     width: 580%;
     height: 100%;
     display: flex;
 }
 
-.slider-content input, .img-mobile{
+.slider-content input,
+.img-mobile {
     display: none;
 }
 
-.slide-box{
+.slide-box {
     width: 25%;
     height: auto;
     position: relative;
@@ -198,14 +193,15 @@ button{
     border-bottom-left-radius: 0px;
 }
 
-.slide-box img{
+.slide-box img {
     width: 100%;
     height: 100%;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
 }
 
-.nav-manual, .nav-auto{
+.nav-manual,
+.nav-auto {
     position: absolute;
     width: 100%;
     margin-top: 30%;
@@ -214,7 +210,8 @@ button{
     justify-content: center;
 }
 
-.nav-manual .manual-btn, .nav-auto div{
+.nav-manual .manual-btn,
+.nav-auto div {
     border: 1px solid #FFF07C;
     padding: 10px;
     width: 5%;
@@ -223,29 +220,33 @@ button{
     transition: 0.2s;
 }
 
-.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+.nav-manual .manual-btn:not(:last-child),
+.nav-auto div:not(:last-child) {
     margin-right: 10px;
 }
 
-.nav-manual .manual-btn:hover{
+.nav-manual .manual-btn:hover {
     background-color: #FFF07C;
 }
 
-#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3{
+#radio1:checked~.nav-auto .auto-btn1,
+#radio2:checked~.nav-auto .auto-btn2,
+#radio3:checked~.nav-auto .auto-btn3 {
     background-color: #FFF07C;
 }
 
-#radio1:checked ~ .primeiro{
+#radio1:checked~.primeiro {
     margin-left: 0%;
 }
 
-#radio2:checked ~ .primeiro{
+#radio2:checked~.primeiro {
     margin-left: -25%;
 }
 
-#radio3:checked ~ .primeiro{
+#radio3:checked~.primeiro {
     margin-left: -50%;
 }
+
 #Hero img {
     height: 100%;
     width: 69%;
@@ -276,7 +277,7 @@ button{
 #ARTright h4 {
     color: black;
     font-size: 30px;
-    text-align:start ;
+    text-align: start;
     margin-left: 15px;
     font-weight: 500;
 }
@@ -285,14 +286,14 @@ button{
     font-size: 30px;
     margin-top: -20px;
     margin-left: 0px;
-    
+
 }
 
 #txth6 {
     position: relative;
     height: 10%;
     width: 100%;
-    
+
 }
 
 #ARTright h6 {
@@ -316,6 +317,7 @@ button{
     float: left;
     margin-left: 10px;
     margin-top: 60px;
+    font-weight: 500;
 }
 
 #BTCP {
@@ -330,190 +332,31 @@ button{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: 0.5s;
 }
-
+#BTCP:hover{
+    background-color: white;
+    /* border: 1px solid #23B5D3; */
+}
 #BTCP p {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
-}
-#divAbsoluta{
-    position: absolute;
-    height: 700px;
-    width: 200%;
-    background-color: #fff07ce7;
-    margin: auto;
-    top: 5px;
-    left: -700px;
-    z-index: 2;  
-    border-radius: 20px;
-    display: none;
-}
-#HENone{
-    margin-top: 0px;
-    position: relative;
-    height: 10%;
-    width: 100%;
-    display: flex;
-    align-items: end;
-}
-#HENone p{
-    margin-left: 60px;
-    font-size: 20px;
-    margin-bottom: 0px;
-}
-#SECNone{
-    position: relative;
-    height: 75%;
-    width: 90%;
-    margin: auto;display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-}
-.caixasPG{
-    position: relative;
-    background-color: #DADADA;
-    height: 20%;
-    width: 100%;
-    margin: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: -40px;
-}
-.caixasPG p{
-    margin-left: 30px;
-    font-size: 18px;
-}
-#infoPG{
     margin-top: 15px;
-    position: relative;
-    background-color: #F1F1F1;
-    height: 65%;
-    width: 100%;
-    display: none;
+    padding: 2px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
-.form{
-    position: relative;
-    height: 100%;
-    width: 90%;
-    margin: auto;
+#BTCP p:hover {
+    color: #23B5D3;
 }
-.form-content{
+
+#outrasgrandesofertas {
     position: relative;
     height: 22%;
     width: 100%;
-    display: flex;
-    align-items: center;
-}
-.difere{
-    display: flex;
-    justify-content: space-around;
-}
-.inputcartão{
-    margin-top: 15px;
-    height: 50%;
-    width: 40%;
-    border-radius: 6px;
-    text-align: center;
-    border: none;
-}
-.lul{
-    width: 60%;
-}
-.PGcod{
-    margin-left: 5%;
-}
-.bt{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-#btEnviar{
-    height: 50%;
-    width: 30%;
-    background-color: #23B5D3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    cursor: pointer;
-    border-radius: 10px;
-}
-#btEnviar{
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-.Seta{
-    background-color: #00000000;
-    margin-right: 15px;
-    position: relative;
-    height: 30%;
-    width: 6%;
-    border: none;
-    text-decoration: none;
-    cursor: pointer;
-}
-.Seta img{
-    height: 100%;
-    width: 100%;
-}
-#FOnone{
-    position: relative;
-    height: 15%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: end;
-}
-#Cancelar{
-    height: 45%;
-    margin-right: 15px;
-    background-color: #23b6d3af;
-    border-radius: 10px;
-    border: none;
-    text-align: center;
-    cursor: pointer;
-}
-#Cancelar P{
-    margin-left: 20px;
-    margin-right: 20px;
-    color: white;
-    font-size: 18px;
-    margin-top: 10px;
-    text-decoration: none;
-}
-#ou{
-    margin-right: 15px;
-    margin-right: 16px;
-    color: white;
-    font-size: 18px;
-}
-#FinalizarCP{
-    height: 45%;
-    margin-right: 40px;
-    background-color: #23B5D3;
-    border-radius: 10px;
-    border: none;
-    text-align: center;
-    cursor: pointer;
-}
-#FinalizarCP p{
-    margin-left: 50px;
-    margin-right: 50px;
-    color: white;
-    font-size: 18px;
-    margin-top: 10px;
-    text-decoration: none;
-}
-#outrasgrandesofertas {
-    position: relative;
-    height: 18%;
-    width: 100%;
-    margin-top: 40px;
+    margin-top: 95px;
 }
 
 #outrasgrandesofertas h4 {
@@ -550,9 +393,10 @@ button{
     text-decoration: none;
     transform: 1s;
 }
+
 .ofertas:hover,
 Ofertas:focus {
-  transform: translateX(10px) scale(1.2);
+    transform: translateX(10px) scale(1.2);
     transform: translateX(10px) scale(1.0);
 }
 
@@ -561,9 +405,11 @@ Ofertas:focus {
     width: 100%;
     border-radius: 30px;
 }
-.ft{
+
+.ft {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
+
 .descrição {
     position: relative;
     height: 35%;
@@ -592,6 +438,9 @@ Ofertas:focus {
     width: 37%;
     float: right;
     margin-top: -70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Icpng {
@@ -622,10 +471,11 @@ Ofertas:focus {
 }
 
 #Frasesmotivacionais {
-    position: relative;
-    height: 18%;
+    padding: 5px;
+    height: auto;
     width: 100%;
     margin-top: 50px;
+    margin: auto;
 }
 
 #Frasesmotivacionais h4 {
@@ -637,12 +487,12 @@ Ofertas:focus {
 
 #ARTMotvacional {
     position: relative;
-    height: 90%;
+    height: 350px;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 0px;
+    margin-bottom: 90px;
 }
 
 #ARTMotvacional div {
@@ -668,40 +518,75 @@ Ofertas:focus {
     font-size: 10px;
     text-align: center;
     font-size: 20px;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-bottom: 0px;
+    padding: 3px;
 }
 
 .textMVPP {
     font-size: 15px;
     color: #00000051;
     margin: 15px;
+    margin-top: 5px;
+    padding: 3px;
 }
 
 
 /************************responsivo tablet ******************************************************/
 
 
-@media screen and (max-width: 1380px){
-    
-    #P1 div{
+@media screen and (max-width: 1380px) {
+
+    #P1 div {
         width: 40%;
     }
-    #BTCP{
+
+    #BTCP {
         width: 40%;
+    }
+    .nav-manual,
+    .nav-auto {
+        position: absolute;
+        width: 100%;
+        margin-top: 30%;
+        margin-left: -15%;
+        display: flex;
+        justify-content: center;
     }
 }
-@media screen and (max-width: 1268px){
-   
-    #txth2{
+@media screen and (max-width: 1305px) {
+
+    #P1 div {
+        width: 40%;
+    }
+
+    #BTCP {
+        width: 40%;
+    }
+    .nav-manual,
+    .nav-auto {
+        position: absolute;
+        width: 100%;
+        margin-top: 32%;
+        margin-left: -15%;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1268px) {
+
+    #txth2 {
         margin-top: -30px;
     }
-   
-    #BTCP{
+
+    #BTCP {
         width: 50%;
         margin-top: 40px;
         margin-left: -100px;
-    }    .nav-manual, .nav-auto{
+    }
+
+    .nav-manual,
+    .nav-auto {
         position: absolute;
         width: 100%;
         margin-top: 35%;
@@ -709,13 +594,30 @@ Ofertas:focus {
         display: flex;
         justify-content: center;
     }
+    #txth6{
+        margin-top: 15px;
+    }
 }
-@media screen and (max-width: 1080px){
-    #BTCP{
-        width:60%;
+@media screen and (max-width: 1155px) {
+    .nav-manual,
+    .nav-auto {
+        position: absolute;
+        width: 100%;
+        margin-top: 36%;
+        margin-left: -15%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    #BTCP {
+        width: 60%;
         margin-left: -130px;
     }
-    .nav-manual, .nav-auto{
+
+    .nav-manual,
+    .nav-auto {
         position: absolute;
         width: 100%;
         margin-top: 38%;
@@ -724,50 +626,87 @@ Ofertas:focus {
         justify-content: center;
     }
 }
-@media screen and (max-width: 1030px){
-    
-    #P1 div{
+
+@media screen and (max-width: 1030px) {
+
+    #P1 div {
         width: 40%;
     }
-    #P1 div p{
+
+    #P1 div p {
         font-size: 15px;
     }
-    
-    #BTCP{
-        width:60%;
+
+    #BTCP {
+        width: 60%;
         margin-left: -130px;
     }
+    #txth6{
+        margin-top: 15px;
+    }
+    .nav-manual,
+    .nav-auto {
+        position: absolute;
+        width: 100%;
+        margin-top: 39%;
+        margin-left: -15%;
+        display: flex;
+        justify-content: center;
+    }
 }
-@media screen and (max-width: 953px){
-    
-    #P1 div{
+@media screen and (max-width: 976px) {
+    .nav-manual,
+    .nav-auto {
+        position: absolute;
+        width: 100%;
+        margin-top: 43%;
+        margin-left: -15%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 953px) {
+
+    #P1 div {
         width: 60%;
     }
-    #hero img{
+
+    #hero img {
         width: 50%;
         margin-left: 15px;
     }
-    #ARTright h4{
+
+    #ARTright h4 {
         font-size: 20px;
     }
-    #ARTright h4 strong{
+
+    #ARTright h4 strong {
         font-size: 25px;
     }
-    #ARTright h6{
-        margin-top: -30px;
-    }  
-    #BTCP{
-        width:80%;
+
+    #ARTright h6 {
+        margin-top: -15px;
+    }
+
+    #BTCP {
+        width: 80%;
         margin-left: -190px;
     }
-    #Frasesmotivacionais{
+
+    #Frasesmotivacionais {
         height: 30%;
     }
-    .ofertas{
+
+    .ofertas {
         width: 70%;
         margin-left: 40px;
     }
-    #ARTMotvacional{
+    .Preço{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    #ARTMotvacional {
 
         display: flex;
         justify-content: center;
@@ -775,12 +714,51 @@ Ofertas:focus {
         width: 100%;
         height: auto;
     }
-    #ARTMotvacional div{
+
+    #ARTMotvacional div {
         margin-left: 15px;
         margin-right: 15px;
         width: 45%;
     }
-    .nav-manual, .nav-auto{
+
+    .nav-manual,
+    .nav-auto {
+        position: absolute;
+        width: 100%;
+        margin-top: 43%;
+        margin-left: -15%;
+        display: flex;
+        justify-content: center;
+    }
+}
+ @media screen and (max-width: 899px) {
+    .nav-manual,
+    .nav-auto {
+        position: absolute;
+        width: 100%;
+        margin-top: 44%;
+        margin-left: -15%;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 860px) {
+    .nav-manual,
+    .nav-auto {
+        position: absolute;
+        width: 100%;
+        margin-top: 45%;
+        margin-left: -15%;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 854px ) {
+    #txth6{
+        margin-top: 15px;
+    }
+    .nav-manual,
+    .nav-auto {
         position: absolute;
         width: 100%;
         margin-top: 46%;
@@ -788,139 +766,231 @@ Ofertas:focus {
         display: flex;
         justify-content: center;
     }
-}
-@media screen and (max-width: 760px){
     
-    #P1{
+}
+@media screen and (max-width: 777px) {
+    .nav-manual,
+    .nav-auto {
+        position: absolute;
+        width: 100%;
+        margin-top: 48%;
+        margin-left: -15%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 760px) {
+
+    #P1 {
         width: 90%;
     }
-    #P2{
+
+    #P2 {
         width: 90%;
     }
-    #P1 div{
+
+    #P1 div {
         width: 80%;
         margin-left: 0px;
         margin: auto;
     }
-    .textmini{
+
+    .textmini {
         font-size: 10px;
     }
-    .textnormal{
+
+    .textnormal {
         font-size: 12px;
     }
-    .slider-content{
+
+    .slider-content {
         width: 580%;
         height: 100%;
         display: flex;
     }
-    
-    .slider{
+
+    .slider {
         width: 92%;
-        height: 28%;
+        height: 40%;
         border-radius: 20px;
         border-bottom-right-radius: 0px;
         border-bottom-left-radius: 0px;
         margin-left: 20px;
     }
-    .slide-box{
+
+    .slide-box {
         width: 25%;
         height: 120%;
         position: relative;
         text-align: center;
         transition: 0.5s;
     }
-    
-    .slide-box img{
+
+    .slide-box img {
         width: 100%;
         height: 100%;
     }
-    .nav-manual, .nav-auto{
+
+    .nav-manual,
+    .nav-auto {
         display: none;
     }
-    #ARTright{
+
+    #ARTright {
         border-bottom-left-radius: 35px;
         border-top-right-radius: 0px;
-        height: 28%;
+        height: 20%;
         width: 92%;
         margin-left: 20px;
     }
-    #txth4{
+
+    #txth4 {
         margin-top: 10px;
     }
-    #txth4 h4{
+
+    #txth4 h4 {
         font-size: 15px;
     }
-    #txth4 h4 strong{
+
+    #txth4 h4 strong {
         font-size: 15px;
     }
-    #txth6{
+
+    #txth6 {
         margin-top: 25px;
     }
-    #txth6 h6{
+
+    #txth6 h6 {
         font-size: 15px;
     }
-    #txth2{
-        margin-top: -70px;
+
+    #txth2 {
+        margin-top: -90px;
         margin-left: 450px;
     }
-    #txth2 h2{
+
+    #txth2 h2 {
         font-size: 30px;
     }
-    #BTCP{
+
+    #BTCP {
         margin: auto;
         margin-top: 0px;
         width: 90%;
         height: 25%;
         margin-left: 30px;
     }
-    #BTCP a{
+
+    #BTCP a {
         font-size: 12px;
     }
-    #ARTPrimaria{
+
+    #ARTPrimaria {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         width: 100%;
         height: auto;
     }
+
     #outrasgrandesofertas {
         width: 100%;
         height: 15%;
         margin-top: -120px;
     }
-    .ofertas{
+
+    .ofertas {
         width: 60%;
         margin: auto;
     }
-    #Frasesmotivacionais{
-        margin-top: 1000px;
-    }
-    #ARTMotvacional div{
+
+    #ARTMotvacional div {
         width: 60%;
     }
 
 
 
 }
-@media screen and (max-width: 684px){
-    
-    #txth2{
-        margin-top: -80px;
-        margin-left: 400px;
-    }
-    #BTCP{
+
+@media screen and (max-width: 684px) {
+
+    #BTCP {
         margin: auto;
-        margin-top: -15px;
+        margin-top: 20px;
         width: 90%;
         height: 25%;
         margin-left: 30px;
+        margin-top: 10px;
     }
-    #txth2 h2{
-        font-size: 25px;
+
+    #txth2 h2 {
+        font-size: 20px;
+        margin-left: -10px;
     }
-    
-    
-    #Frasesmotivacionais{
-        margin-top: 900px;
+}
+@media screen and (max-width: 586px) {
+
+    #BTCP {
+        margin: auto;
+        margin-top: 20px;
+        width: 90%;
+        height: 25%;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    /* #txth2{
+    } */
+    #txth2 h2 {
+        font-size: 20px;
+        margin-left: -60px;
+    }
+    #txth4{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 508px) {
+
+    #BTCP {
+        margin: auto;
+        margin-top: 20px;
+        width: 90%;
+        height: 25%;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    /* #txth2{
+    } */
+    #txth2 h2 {
+        font-size: 20px;
+        margin-left: -90px;
+    }
+    #txth4{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 500px) {
+
+    #BTCP {
+        margin: auto;
+        margin-top: 20px;
+        width: 90%;
+        height: 25%;
+        margin-left: 30px;
+        margin-top: 60px;
+    }
+    #txth2 h2 {
+        font-size: 15px;
+        margin-left: -110px;
+    }
+    #txth4{
+        width: 50%;
+    }
+    #txth6{
+        margin-top: 30px;
+        width: 80%;
+    }
+    #txth6 h6{
+        font-size: 10px;
     }
 }

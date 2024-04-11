@@ -2,7 +2,7 @@
     font-family: 'Poppins';
 }
 
-header{
+header {
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -23,20 +23,21 @@ header{
 
 
 
-.cadastros{
+.cadastros {
     width: 60%;
     height: auto;
 }
 
-.resumo-total{
+.resumo-total {
     width: 40%;
     border-radius: 10px;
     height: auto;
+   
 }
 
 /* form viajantes */
 
-.formulario{
+.formulario {
     width: 90%;
     padding: 20px;
     background-color: #ffffff;
@@ -45,7 +46,7 @@ header{
     border-radius: 10px;
 }
 
-.input-group{
+.input-group {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -53,14 +54,15 @@ header{
     width: 100%;
 }
 
-.input-item{
+.input-item {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
     width: 100%;
 }
 
-.input-item input, select{
+.input-item input,
+select {
     width: 100%;
     height: 50px;
     padding: 10px;
@@ -70,23 +72,23 @@ header{
     border: 1px solid black;
 }
 
-.dados-importantes{
+.dados-importantes {
     display: flex;
     gap: 10px;
     width: 100%;
 }
 
-.dados-importantes input{
-  width: 100%;
+.dados-importantes input {
+    width: 100%;
 }
 
-.input-item-radio{
+.input-item-radio {
     display: flex;
     margin-top: 40px;
     gap: 30px;
 }
 
-.btn-comprar{
+.btn-success {
     background-color: #11AF71;
     padding: 10px 50px;
     font-weight: 600;
@@ -98,7 +100,7 @@ header{
     transition: 0.2s all;
 }
 
-.btn-comprar:hover{
+.btn-comprar:hover {
     background-color: #098554;
 
 }
@@ -111,21 +113,21 @@ header{
 
 /* Card pagamento */
 
-.titulo-3{
+.titulo-3 {
     padding: 30px 0px 10px 0px;
 }
 
-.card-resumo-total{
+.card-resumo-total {
     padding: 15px;
     width: 550px;
     height: 250px;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     border-radius: 10px;
-
+    padding: 30px;
 }
 
-.ida-info{
+.ida-info {
     color: blue;
 }
 
@@ -139,25 +141,25 @@ header{
     color: #fff;
 }
 
-.resumo-gastos{
+.resumo-gastos {
     height: 80%;
 }
 
-.gasto{
+.gasto {
     font-size: 1.1rem;
 }
 
-.resumo-gastos ul{
+.resumo-gastos ul {
     list-style: none;
     font-weight: 500;
 }
 
-.resumo-gastos li{
+.resumo-gastos li {
     display: flex;
     justify-content: space-between;
 }
 
-.total{
+.total {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -166,21 +168,21 @@ header{
     padding: 35px 0px;
 }
 
-.preco{
+.preco {
     font-size: 1.5rem;
     font-weight: 600;
 }
 
-.preco-total{
+.preco-total {
     display: flex;
     align-items: center;
     gap: 5px;
 
 }
 
-.desconto{
+.desconto {
     color: #11AF71;
-    
+
 }
 
 
@@ -210,7 +212,7 @@ header{
     padding: 10px 0px 10px 0px;
 }
 
-.no-border{
+.no-border {
     border: none;
 }
 
@@ -226,7 +228,7 @@ header{
     display: flex;
     align-items: center;
     gap: 10px;
-   
+
 }
 
 .detalhes-viagem {
@@ -426,20 +428,24 @@ header{
 
 /* Detalhes hospedagem */
 
-.hotel{
+.hotel {
     display: flex;
     flex-direction: column;
     height: auto;
-    
+
+}
+
+.cor-header{
+    background-color: #F8F9FA;
 }
 
 @media screen and (max-width:1119px) {
-    .conteudo{
+    .conteudo {
         width: 100%;
         flex-direction: column;
     }
 
-    .cadastros{
+    .cadastros {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -447,8 +453,11 @@ header{
         width: 100%;
     }
 
-    .resumo-total, .card-resumo-total, .container-card-detalhes, .card-viagem-info{
+    .resumo-total,
+    .card-resumo-total,
+    .container-card-detalhes,
+    .card-viagem-info {
         width: 100%;
     }
-    
+
 }

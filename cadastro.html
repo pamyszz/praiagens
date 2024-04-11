@@ -6,11 +6,22 @@
     <title>Cadastro</title>
     <link rel="stylesheet" href="css/cadastro.css">
     <script src="js/cadastro.js" type="text/javascript"></script>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <link rel="stylesheet" href="css/style.css">
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
 </head>
 <body>
     <div class="container">
-        <h2>Cadastra-se</h2>
-        <p>Acesse sua conta ou faça seu cadastro</p>
+        <h2>Cadastre-se</h2>
+        <p>Realize seu cadastro</p>
          <h3> Dados cadastrais</h3>
         <form action="index.html" method="POST">
             <input type="text" id="cpf" placeholder="CPF" required>
@@ -21,7 +32,7 @@
                 <input type="tel" id="telefone" placeholder=" (xx) xxxxx-xxxx" required>
             </div>
             <input type="email" id="email" placeholder=" Digite seu e-mail" required>
-            <input type="email" id="confirmarEmail" placeholder="Digite seu e-mail" required>
+            <input type="email" id="confirmarEmail" placeholder="Confirme seu e-mail" required>
             <div class="form-row">
             <input type="password" id="senha" placeholder="Digite sua senha " required>
             <input type="password" id="confirmarSenha" placeholder="Confirme a sua Senha" required> 
@@ -38,6 +49,44 @@
         </form>
     </div>
 
+    <footer class="footer">
+      <div class="footer-content">
+        <img class="logo-img" src="img/icones-footer/image-removebg-preview(2).png" alt="">
+        <p>Senac Lapa Tito, São Paulo - SP</p>
 
+        <div class="social-icons">
+          <img src="img/icones-footer/facebook 1.png" alt="">
+          <img src="img/icones-footer/social-media 1.png" alt="">
+          <img src="img/icones-footer/yaotube 1.png" alt="">
+        </div>
+      </div>
+      
+      <div class="footer-content">
+        <h4>Privacidade</h4>
+        <li><a href="#">Termos de uso</a></li>
+        <li><a href="#">Políticas de Privacidade</a></li>
+        <li><a href="#">Cookies</a></li>
+      </div>
+
+      <div class="footer-content">
+        <h4>Serviços</h4>
+          <li><a href="#">Passagens</a></li>
+          <li><a href="#">Pacotes</a></li>
+          <li><a href="#">Promoções</a></li>
+      </div>
+
+      <div class="footer-content">
+        <h4>Suporte</h4>
+          <li><a href="#">Sobre nós</a></li>
+          <li><a href="#">FAQ - Perguntas <br> Frequentes</a></li>
+          <li><a href="#">Contato</a></li>
+      </div>
+
+      <div class="footer-content">
+        <h4>Cliente</h4>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Cadastro</a></li>
+      </div>
+    </footer>
 </body>
 </html>

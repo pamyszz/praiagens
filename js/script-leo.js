@@ -6,7 +6,7 @@ if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
 }
 
 function addAnimation() {
-  scrollers.forEach((scroller) => {
+  scrollers.forEach((scroller) => { // Para cada item do scroller faça tal coisa
     // add data-animated="true" to every `.scroller` on the page
     scroller.setAttribute("data-animated", true);
 

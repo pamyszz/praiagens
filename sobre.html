@@ -6,7 +6,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/sobre.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-leo.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/responsive-leo.css">
     <title>Document</title>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
 </head>
 <body>
     <header class="desktop-header">
@@ -21,20 +34,24 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Início</a>
+                        <a class="nav-link" href="index.html">Início</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
+                        <a class="nav-link" href="sobre">Sobre</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="pacotes.html">Pacotes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Promoções</a>
+                        <a class="nav-link" href="pacotes.html">Promoções</a>
                     </li>
                 </ul>
                 <div id="nav-buttons">
-                    <a href="#">Entrar</a>
+                    <div class="noturno">
+                        <div class="noturno-escolha">
+                        </div>
+                    </div>
+                    <a href="#" class="nav-link">Entrar</a>
                     <button>Cadastro</button>
                 </div>
             </div>
@@ -138,6 +155,51 @@
             </div>
         </section>
     </main>
+
+    <main>
+        <section class="container-quem-somos">
+            <div class="box-title-quem-somos">
+                <h2>Afinal, quem somos?</h2>
+                <p>
+                    Pessoas que, como você, acreditam que viajar é transformador. Seja para realizar sonhos antigos ou
+                    descobrir novas experiências, estamos aqui para fazer cada vez mais viagens acontecerem!
+                </p>
+            </div>
+            <div class="grid-quem-somos">
+                <div class="coluna">
+                    <div class="bx-1 bk"></div>
+                    <div class="bx-2 bk"></div>
+                    <div class="bx-3 bk b-color-blue"></div>
+                    <div class="bx-4 bk"></div>
+                </div>
+                <div class="coluna">
+                    <div class="bx-5 bk b-color-blue"></div>
+                    <div class="bx-6 bk"></div>
+                    <div class="bx-7 bk"></div>
+                    <div class="bx-8 bk b-color-blue"></div>
+                </div>
+                <div class="coluna">
+                    <div class="bx-9 bk"></div>
+                    <div class="bx-10 bk b-color-blue"></div>
+                    <div class="bx-11 bk"></div>
+                </div>
+                <div class="coluna">
+                    <div class="bx-12 bk"></div>
+                    <div class="bx-13 bk b-color-blue"></div>
+                    <div class="bx-14 bk"></div>
+                </div>
+            </div>
+        </section>
+        <section class="scroller" data-direction="right" data-speed="slow">
+            <div class="scroller__inner">
+                <img src="img/logo-banco-pan.png" alt="Logo do Banco Pan" title="Banco Pan">
+                <img src="img/logo-trivago.png" alt="Logo do Trivago" title="Trivago">
+                <img src="img/logo-proa.png" alt="Logo do Proa" title="Proa">
+                <img src="img/logo-buser.svg" alt="Logo da Buser" title="Buser">
+            </div>
+        </section>
+    </main>
+
     <footer class="footer">
       <div class="footer-content">
         <img class="logo-img" src="img/icones-footer/image-removebg-preview(2).png" alt="">
@@ -180,6 +242,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+    <script src="js/script-leo.js"> </script>
 </body>
 </html>

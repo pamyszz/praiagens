@@ -13,6 +13,7 @@ var navLink = document.querySelectorAll('.nav-link');
 
 ativarNoturno.addEventListener('click', toggleNoturno);
 
+
 function toggleNoturno() {
     if (isModoNoturnoAtivo) {
         removerClassesNoturnas();

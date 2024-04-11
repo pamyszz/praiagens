@@ -13,6 +13,17 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/pacotes.css">
     <title>Pacotes</title>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
 </head>
 
 <body class="pagina">
@@ -30,16 +41,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Início</a>
+                        <a class="nav-link" href="index.html">Início</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
+                        <a class="nav-link" href="sobre.html">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pacotes</a>
+                        <a class="nav-link" href="pacotes.html">Pacotes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Promoções</a>
+                        <a class="nav-link" href="pacotes.html">Promoções</a>
                     </li>
                 </ul>
                 <div id="nav-buttons">
@@ -47,7 +58,7 @@
                         <div class="noturno-escolha">
                         </div>
                     </div>
-                    <a href="#" class="nav-link">Entrar</a>
+                    <a href="login.html" class="nav-link">Entrar</a>
                     <button>Cadastro</button>
                 </div>
             </div>
@@ -114,7 +125,7 @@
             </div>
 
             <input type="text" class="search" id="search" onkeyup="search()" placeholder="Buscar">
-
+            <i class="fa-solid fa-magnifying-glass lupa"></i>
         </div>
     </section>
 
@@ -138,7 +149,7 @@
 
                 <div class="card-pacote">
                     <div class="card-img">
-                        <img src="img/rio.jpg" alt="">
+                        <img src="img/Paraia-de-COPAGABANA-rio-janeiro.jpeg" alt="">
                     </div>
 
                     <div class="card-info ">
@@ -148,7 +159,7 @@
                             </span>
                         </div>
                         <div class="titulo-card ">
-                            <h1 class="titulo-4 ">Pacote para São paulo Farol</h1>
+                            <h1 class="titulo-4 ">Pacote para Copacabana</h1>
                             <div class="voo-item">
                                 <i class="fa-solid fa-plane"></i>
                                 <h2 class="subtitulo-2" id="voo-info" id="voo-info">Ida e volta</h2>
@@ -159,7 +170,7 @@
 
                         <div class="voo-info">
                             <div class="preco-confirm">
-                                <span class="preco">R$ 600,00</span>
+                                <span class="preco">R$ 599,00</span>
                                 <a href="hotel-carrinho.html"><button class="btn-comprar">Comprar</button></a>
                             </div>
                         </div>
@@ -168,17 +179,17 @@
 
                 <div class="card-pacote">
                     <div class="card-img">
-                        <img src="img/rio.jpg" alt="">
+                        <img src="img/praia-da-Joatinga-Rio-de-janeiro.jpeg" alt="">
                     </div>
 
                     <div class="card-info">
                         <div class="oferta">
                             <span class="subtitulo-2">
-                                50% Desconto
+                                40% Desconto
                             </span>
                         </div>
                         <div class="titulo-card">
-                            <h1 class="titulo-4">Pacote para São paulo Farol</h1>
+                            <h1 class="titulo-4">Pacote para Joatinga</h1>
                             <div class="voo-item">
                                 <i class="fa-solid fa-plane"></i>
                                 <h2 class="subtitulo-2" id="voo-info" id="voo-info">Apenas ida</h2>
@@ -189,7 +200,7 @@
 
                         <div class="voo-info">
                             <div class="preco-confirm">
-                                <span class="preco">R$ 600,00</span>
+                                <span class="preco">R$ 499,90</span>
                                 <button class="btn-comprar">Comprar</button>
                             </div>
                         </div>
@@ -198,20 +209,20 @@
 
                 <div class="card-pacote">
                     <div class="card-img">
-                        <img src="img/rio.jpg" alt="">
+                        <img src="img/praia-do-arpoador-rio-de-janeiro.jpeg" alt="">
                     </div>
 
                     <div class="card-info">
                         <div class="oferta">
                             <span class="subtitulo-2">
-                                50% Desconto
+                                35% Desconto
                             </span>
                         </div>
                         <div class="titulo-card">
-                            <h1 class="titulo-4">Pacote para São paulo Farol</h1>
+                            <h1 class="titulo-4">Pacote para Apoador</h1>
                             <div class="voo-item">
                                 <i class="fa-solid fa-plane"></i>
-                                <h2 class="subtitulo-2" id="voo-info">Ida e volta</h2>
+                                <h2 class="subtitulo-2" id="voo-info" id="voo-info">Apenas ida</h2>
                             </div>
                         </div>
 
@@ -219,7 +230,7 @@
 
                         <div class="voo-info">
                             <div class="preco-confirm">
-                                <span class="preco">R$ 600,00</span>
+                                <span class="preco">R$ 399,90</span>
                                 <button class="btn-comprar">Comprar</button>
                             </div>
                         </div>
@@ -228,20 +239,20 @@
 
                 <div class="card-pacote">
                     <div class="card-img">
-                        <img src="img/rio.jpg" alt="">
+                        <img src="img/vista-praia-na-barra-da-tijuca-rio-de-janeiro.jpeg" alt="">
                     </div>
 
                     <div class="card-info">
                         <div class="oferta">
                             <span class="subtitulo-2">
-                                50% Desconto
+                                40% Desconto
                             </span>
                         </div>
                         <div class="titulo-card">
-                            <h1 class="titulo-4">Pacote para São paulo Farol</h1>
+                            <h1 class="titulo-4">Pacote para Barra da Tijuca</h1>
                             <div class="voo-item">
                                 <i class="fa-solid fa-plane"></i>
-                                <h2 class="subtitulo-2" id="voo-info">Ida e volta</h2>
+                                <h2 class="subtitulo-2" id="voo-info" id="voo-info">Apenas ida</h2>
                             </div>
                         </div>
 
@@ -265,28 +276,28 @@
             <div class="container-pacotes">
                 <div class="card-pacote">
                     <div class="card-img">
-                        <img src="img/rio.jpg" alt="">
+                        <img src="img/carro-em-ubatuba.jpg" alt="">
                     </div>
 
                     <div class="card-info">
                         <div class="oferta">
                             <span class="subtitulo-2">
-                                50% Desconto
+                                40% Desconto
                             </span>
                         </div>
                         <div class="titulo-card">
-                            <h1 class="titulo-4">Pacote para Praia Farol</h1>
-
+                            <h1 class="titulo-4">Pacote para Ubatuba</h1>
+                            <div class="voo-item">
+                                <i class="fa-solid fa-plane"></i>
+                                <h2 class="subtitulo-2" id="voo-info" id="voo-info">Ida e volta</h2>
+                            </div>
                         </div>
 
-                        <div class="voo-item">
-                            <i class="fa-solid fa-plane"></i>
-                            <h2 class="subtitulo-2" id="voo-info">Ida e volta</h2>
-                        </div>
+
 
                         <div class="voo-info">
                             <div class="preco-confirm">
-                                <span>R$ 600,00</span>
+                                <span class="preco">R$ 630,00</span>
                                 <button class="btn-comprar">Comprar</button>
                             </div>
                         </div>
@@ -295,28 +306,28 @@
 
                 <div class="card-pacote">
                     <div class="card-img">
-                        <img src="img/rio.jpg" alt="">
+                        <img src="img/santos-praia-São-paulo.jpe" alt="">
                     </div>
 
                     <div class="card-info">
                         <div class="oferta">
                             <span class="subtitulo-2">
-                                50% Desconto
+                                40% Desconto
                             </span>
                         </div>
                         <div class="titulo-card">
-                            <h1 class="titulo-4">Pacote para Praia Farol</h1>
-
+                            <h1 class="titulo-4">Pacote para Santos</h1>
+                            <div class="voo-item">
+                                <i class="fa-solid fa-plane"></i>
+                                <h2 class="subtitulo-2" id="voo-info" id="voo-info">Apenas ida</h2>
+                            </div>
                         </div>
 
-                        <div class="voo-item">
-                            <i class="fa-solid fa-plane"></i>
-                            <h2 class="subtitulo-2" id="voo-info">Ida e volta</h2>
-                        </div>
+
 
                         <div class="voo-info">
                             <div class="preco-confirm">
-                                <span>R$ 600,00</span>
+                                <span class="preco">R$ 300,00</span>
                                 <button class="btn-comprar">Comprar</button>
                             </div>
                         </div>
@@ -325,28 +336,28 @@
 
                 <div class="card-pacote">
                     <div class="card-img">
-                        <img src="img/rio.jpg" alt="">
+                        <img src="img/Juquehy-O-que-Fazer-Praias-Capa-são-paulo.jpeg" alt="">
                     </div>
 
                     <div class="card-info">
                         <div class="oferta">
                             <span class="subtitulo-2">
-                                50% Desconto
+                                30% Desconto
                             </span>
                         </div>
                         <div class="titulo-card">
-                            <h1 class="titulo-4">Pacote para Praia Farol</h1>
-
+                            <h1 class="titulo-4">Pacote para Juquehy</h1>
+                            <div class="voo-item">
+                                <i class="fa-solid fa-plane"></i>
+                                <h2 class="subtitulo-2" id="voo-info" id="voo-info">Apenas ida</h2>
+                            </div>
                         </div>
 
-                        <div class="voo-item">
-                            <i class="fa-solid fa-plane"></i>
-                            <h2 class="subtitulo-2" id="voo-info">Ida e volta</h2>
-                        </div>
+
 
                         <div class="voo-info">
                             <div class="preco-confirm">
-                                <span>R$ 600,00</span>
+                                <span class="preco">R$ 300,00</span>
                                 <button class="btn-comprar">Comprar</button>
                             </div>
                         </div>
@@ -355,28 +366,28 @@
 
                 <div class="card-pacote">
                     <div class="card-img">
-                        <img src="img/rio.jpg" alt="">
+                        <img src="img/praia-do-jabaquara-ilhabela-são-paulo.jpeg" alt="">
                     </div>
 
                     <div class="card-info">
                         <div class="oferta">
                             <span class="subtitulo-2">
-                                50% Desconto
+                                60% Desconto
                             </span>
                         </div>
                         <div class="titulo-card">
-                            <h1 class="titulo-4">Pacote para Praia Farol</h1>
-
+                            <h1 class="titulo-4">Pacote para Jabaquara</h1>
+                            <div class="voo-item">
+                                <i class="fa-solid fa-plane"></i>
+                                <h2 class="subtitulo-2" id="voo-info" id="voo-info">Apenas ida</h2>
+                            </div>
                         </div>
 
-                        <div class="voo-item">
-                            <i class="fa-solid fa-plane"></i>
-                            <h2 class="subtitulo-2" id="voo-info">Ida e volta</h2>
-                        </div>
+
 
                         <div class="voo-info">
                             <div class="preco-confirm">
-                                <span>R$ 600,00</span>
+                                <span class="preco">R$ 500,00</span>
                                 <button class="btn-comprar">Comprar</button>
                             </div>
                         </div>
@@ -392,27 +403,28 @@
             <div class="container-pacotes">
                 <div class="card-pacote">
                     <div class="card-img">
-                        <img src="img/rio.jpg" alt="">
+                        <img src="img/praia-do-satu-caraiva-bahia.jpeg" alt="">
                     </div>
 
                     <div class="card-info">
                         <div class="oferta">
                             <span class="subtitulo-2">
-                                50% Desconto
+                                30% Desconto
                             </span>
                         </div>
                         <div class="titulo-card">
-                            <h1 class="titulo-4">Pacote para Praia Farol</h1>
+                            <h1 class="titulo-4">Pacote para Satucaraiva</h1>
+                            <div class="voo-item">
+                                <i class="fa-solid fa-plane"></i>
+                                <h2 class="subtitulo-2" id="voo-info" id="voo-info">Ida e volta</h2>
+                            </div>
                         </div>
 
-                        <div class="voo-item">
-                            <i class="fa-solid fa-plane"></i>
-                            <h2 class="subtitulo-2" id="voo-info">Apenas ida</h2>
-                        </div>
+
 
                         <div class="voo-info">
                             <div class="preco-confirm">
-                                <span>R$ 600,00</span>
+                                <span class="preco">R$ 400,00</span>
                                 <button class="btn-comprar">Comprar</button>
                             </div>
                         </div>
@@ -421,28 +433,28 @@
 
                 <div class="card-pacote">
                     <div class="card-img">
-                        <img src="img/rio.jpg" alt="">
+                        <img src="img/praia-dos-coqueiros-bahia.jpeg" alt="">
                     </div>
 
                     <div class="card-info">
                         <div class="oferta">
                             <span class="subtitulo-2">
-                                50% Desconto
+                                60% Desconto
                             </span>
                         </div>
                         <div class="titulo-card">
-                            <h1 class="titulo-4">Pacote para Praia Farol</h1>
-
+                            <h1 class="titulo-4">Pacote para Coqueiros</h1>
+                            <div class="voo-item">
+                                <i class="fa-solid fa-plane"></i>
+                                <h2 class="subtitulo-2" id="voo-info" id="voo-info">Ida e ida</h2>
+                            </div>
                         </div>
 
-                        <div class="voo-item">
-                            <i class="fa-solid fa-plane"></i>
-                            <h2 class="subtitulo-2" id="voo-info">Ida e volta</h2>
-                        </div>
+
 
                         <div class="voo-info">
                             <div class="preco-confirm">
-                                <span>R$ 600,00</span>
+                                <span class="preco">R$ 450,00</span>
                                 <button class="btn-comprar">Comprar</button>
                             </div>
                         </div>
@@ -451,59 +463,58 @@
 
                 <div class="card-pacote">
                     <div class="card-img">
-                        <img src="img/rio.jpg" alt="">
+                        <img src="img/Prainha de são josé-bahia.jpeg" alt="">
                     </div>
 
                     <div class="card-info">
                         <div class="oferta">
                             <span class="subtitulo-2">
-                                50% Desconto
+                                60% Desconto
                             </span>
                         </div>
                         <div class="titulo-card">
-                            <h1 class="titulo-4">Pacote para Praia Farol</h1>
-
+                            <h1 class="titulo-4">Pacote para São José</h1>
+                            <div class="voo-item">
+                                <i class="fa-solid fa-plane"></i>
+                                <h2 class="subtitulo-2" id="voo-info" id="voo-info">Apenas ida</h2>
+                            </div>
                         </div>
 
-                        <div class="voo-item">
-                            <i class="fa-solid fa-plane"></i>
-                            <h2 class="subtitulo-2" id="voo-info">Ida e volta</h2>
-                        </div>
+
 
                         <div class="voo-info">
                             <div class="preco-confirm">
-                                <span>R$ 600,00</span>
-                                <button class="btn-comprar" hidden>Comprar</button>
+                                <span class="preco">R$ 319,90</span>
+                                <button class="btn-comprar">Comprar</button>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="card-pacote">
-                    <div class="formulario" hidden></div>
                     <div class="card-img">
-                        <img src="img/rio.jpg" alt="">
+                        <img src="img/forte.jpg" alt="">
                     </div>
 
                     <div class="card-info">
                         <div class="oferta">
                             <span class="subtitulo-2">
-                                50% Desconto
+                                35% Desconto
                             </span>
                         </div>
                         <div class="titulo-card">
-                            <h1 class="titulo-4">Pacote para Praia Farol</h1>
-
+                            <h1 class="titulo-4">Pacote para Praia do Forte</h1>
+                            <div class="voo-item">
+                                <i class="fa-solid fa-plane"></i>
+                                <h2 class="subtitulo-2" id="voo-info" id="voo-info">Ida e volta</h2>
+                            </div>
                         </div>
 
-                        <div class="voo-item">
-                            <i class="fa-solid fa-plane"></i>
-                            <h2 class="subtitulo-2" id="voo-info">Ida e volta</h2>
-                        </div>
 
+<div class="formulario"></div>
                         <div class="voo-info">
                             <div class="preco-confirm">
-                                <span>R$ 600,00</span>
+                                <span class="preco">R$ 340,00</span>
                                 <button class="btn-comprar">Comprar</button>
                             </div>
                         </div>
@@ -513,7 +524,45 @@
             </div>
         </section>
     </main>
-
+    <footer class="footer">
+        <div class="footer-content">
+          <img class="logo-img" src="img/icones-footer/image-removebg-preview(2).png" alt="">
+          <p>Senac Lapa Tito, São Paulo - SP</p>
+  
+          <div class="social-icons">
+            <img src="img/icones-footer/facebook 1.png" alt="">
+            <img src="img/icones-footer/social-media 1.png" alt="">
+            <img src="img/icones-footer/yaotube 1.png" alt="">
+          </div>
+        </div>
+        
+        <div class="footer-content">
+          <h4>Privacidade</h4>
+          <li><a href="#">Termos de uso</a></li>
+          <li><a href="#">Políticas de Privacidade</a></li>
+          <li><a href="#">Cookies</a></li>
+        </div>
+  
+        <div class="footer-content">
+          <h4>Serviços</h4>
+            <li><a href="#">Passagens</a></li>
+            <li><a href="#">Pacotes</a></li>
+            <li><a href="#">Promoções</a></li>
+        </div>
+  
+        <div class="footer-content">
+          <h4>Suporte</h4>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">FAQ - Perguntas <br> Frequentes</a></li>
+            <li><a href="#">Contato</a></li>
+        </div>
+  
+        <div class="footer-content">
+          <h4>Cliente</h4>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Cadastro</a></li>
+        </div>
+      </footer>
     <script src="js/search.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>

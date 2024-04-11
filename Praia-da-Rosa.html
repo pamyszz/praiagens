@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Praia da Rosa </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/ViagensSoloStyle.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/image-removebg-preview 1.png">
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+</head>
+
+<body>
+    <header class="desktop-header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div id="logo-nav">
+                <img src="img/image-removebg-preview 1.png" alt="Logo Praiagens">
+                <p>Praiagens</p>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pacotes.html">Pacotes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Promoções</a>
+                    </li>
+                </ul>
+                <div id="nav-buttons">
+                    <a href="#">Entrar</a>
+                    <button>Cadastro</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <header class="mobile-header">
+        <nav class="navbar navbar-light bg-light">
+            <div id="logo-nav">
+                <img src="img/image-removebg-preview 1.png" alt="">
+                <p>Praiagens</p>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavMobile" aria-controls="navbarNavMobile" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavMobile">
+                <button class="close-menu" type="button" data-toggle="collapse" data-target="#navbarNavMobile" aria-controls="navbarNavMobile" aria-expanded="true" aria-label="Toggle navigation">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div id="nav-buttons">
+                    <button class="btn btn-outline-dark">Entre ou Cadastre</button>
+                </div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pacotes.html">Pacotes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Promoções</a>
+                    </li>
+                </ul>
+                <div id="ajuda-mobile">
+                    <h3 class="titulo-2">Ajuda</h3>
+                    <ul>
+                        <li><img src="img/icones-responsivo-nav/prancheta 1.png" alt=""> Como remarcar o voo?</li>
+                        <li><img src="img/icones-responsivo-nav/carteira 1.png" alt=""> Como fazer check-in?</li>
+                        <li><img src="img/icones-responsivo-nav/forma-de-pagamento 1.png" alt=""> Tem reembolso?</li>
+                        <li><img src="img/icones-responsivo-nav/pergunta-para-fazer-login-em-circulos 1.png" alt=""> Outras dúvidas</li>
+                    </ul>
+                </div>                
+            </div>
+        </nav>
+    </header>    
+    <main>
+        
+        <section id="SECP1">
+            <article id="P1">
+                <div>
+                    <input type="radio" name="opcao" id="Idaevolta"value="Ida e volta" checked>
+                    <p> Ida e volta </p>
+                    <input type="radio" name="opcao" id="Apenasida" value="Apenas ida">
+                    <p> Apenas ida </p>
+                </div>
+            </article>
+            <article id="P2">
+                <div id="DV1P2">
+                    <div class="subdiv">
+                        <p class="textmini"> Origem </p>
+                        <p class="textnormal"> São Paulo </p>
+                        <p class="textnormal conteudo" style="display: none;"> pão doce </p>
+                    </div>
+                    <div class="subdiv">
+                        <p class="textmini"> Destino </p>
+                        <p class="textnormal" id="destino"> Santa Catarina </p>
+                        <p class="textnormal conteudo" style="display: none;"> alakazam </p>
+                    </div>
+                </div>
+                <div id="DV2P2">
+                    <div class="subdiv">
+                        <p class="textmini"> Ida </p>
+                        <p class="textnormal"> 05/05 </p>
+                    </div>
+                    <div class="subdiv">
+                        <p class="textmini"> volta </p>
+                        <p class="textnormal" id="data"> 05/06 </p>
+                    </div>
+                </div>
+                <div id="DV3P2">
+                    <select name="" id="">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </article>
+        </section>
+
+        <section id="Hero">
+            <section class="slider">
+                <div class="slider-content">
+                    
+                    <input type="radio" name="btn-radio" id="radio1">
+                    <input type="radio" name="btn-radio" id="radio2">
+                    <input type="radio" name="btn-radio" id="radio3">
+        
+                    <div class="slide-box primeiro">
+                        <img class="img-desktop" src="img/imbituba-praia-do-rosa-por-do-sol.jpeg" alt="slide 1">
+                    </div>
+        
+                    <div class="slide-box">
+                        <img class="img-desktop" src="img/praia-do-Rosa.jpeg" alt="slide 3">
+                    </div>
+        
+                    <div class="slide-box">
+                        <img class="img-desktop" src="img/destaque3.jpg" alt="slide 3">
+                    </div>
+        
+                    <div class="nav-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+        
+                    <div class="nav-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                    </div>
+        
+                </div>
+            </section>
+            <article id="ARTright">
+                <div id="txth4">
+                    <h4>Seu próximo destino está<strong> à sua espera!</strong></h4>
+                </div>
+                <div id="txth6">
+                    <h6>Reserve a sua viagem e aproveite cada momento</h6>
+                </div>
+                <div id="txth2">
+                    <h2>R$150,00</h2>
+                </div>
+                <button id="BTCP"> <p href="../praiagens/pagamento.html"> Comprar agora</p></button>
+            </article>
+        </section>
+        <section id="outrasgrandesofertas">
+            <h4>Outras <A href="#"> grandes ofertas: </A></h4>
+            <article id="ARTPrimaria">
+                <a href="#">
+                    <div class="ofertas"> <img src="img/destaque2.jpg" alt="" class="ft">
+                        <div class="descrição">
+                            <p class="textGB">Baía do Sancho</p>
+                            <div class="Iconeminitext">
+                                <div class="ico">
+                                    <img src="img/black-placeholder-variant.png">
+                                </div>
+                                <p class="minitext"> Pernambuco </p>
+                            </div>
+                            <div class="DVPreço">
+                                <p class="Preço"> R$150 </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="viagensSolo.html">
+                    <div class="ofertas"> <img src="img/destaque1 (1).jpg" alt="" class="ft">
+                        <div class="descrição">
+                            <p class="textGB"> Praia do Farol </p>
+                            <div class="Iconeminitext">
+                                <div class="ico">
+                                    <img src="img/black-placeholder-variant.png">
+                                </div>
+                                <p class="minitext"> Rio de janeiro </p>
+                            </div>
+                            <div class="DVPreço">
+                                <p class="Preço"> R$150 </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="ofertas"> <img src="img/destaque4.jpg" alt="" class="ft">
+                        <div class="descrição">
+                            <p class="textGB"> Praia de Jerioacoara </p>
+                            <div class="Iconeminitext">
+                                <div class="ico">
+                                    <img src="img/black-placeholder-variant.png">
+                                </div>
+                                <p class="minitext"> Ceará </p>
+                            </div>
+                            <div class="DVPreço">
+                                <p class="Preço"> R$150 </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>
+        </section>
+        <section id="Frasesmotivacionais">
+            <h4> Queremos que você voe com todas essas qualidades </h4>
+            <article id="ARTMotvacional">
+                <div class="DVMotivacional"><img src="Img/praiagens airlines.jpg" alt="Duas pessoas se divertindo em meio a uma aventura calma e relaxante">
+                    <p class="textMVGB">Divirta-se</p>
+                    <p class="textMVPP"> Crie experiencias e aproveite 
+                        cada momento dessa viagem.</p>
+                </div>
+                <div class="DVMotivacional"><img src="Img/parte de dentro do avião.jpg" alt="Aeromoça dando aula sobre proteção para caso o avião sofra algum pane">
+                    <p class="textMVGB">Desfrute dos serviços</p>
+                    <p class="textMVPP"> Praiagens oferece serviços de 
+                        bordo excelentes, com direito a 
+                        menu de drinks refrescantes. </p>
+                </div>
+                <div class="DVMotivacional"><img src="Img/azul-linhas-aereas-2.jpeg" alt="Pessoas se divertindo">
+                    <p class="textMVGB">Praiagens airlines</p>
+                    <p class="textMVPP"> Focamos em entregar uma viagem 
+                        única e cheia de boas lembranças,
+                        boa sorte e boa viagem.</p>
+                </div>
+                <div class="DVMotivacional"><img src="img/imgbagagem.jpeg" alt="Pessoa colocando bagagem de um passageiro no raio X">
+                    <p class="textMVGB">Sobre seus bens</p>
+                    <p class="textMVPP"> Cuidaremos das suas bagagens
+                        com muita cautela e carinho, confie 
+                        em nós e garantimos uma  viagem 
+                        inesquecível.</p>
+                </div> 
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+          <img class="logo-img" src="img/icones-footer/image-removebg-preview(2).png" alt="">
+          <p>Senac Lapa Tito, São Paulo - SP</p>
+  
+          <div class="social-icons">
+            <img src="img/icones-footer/facebook 1.png" alt="">
+            <img src="img/icones-footer/social-media 1.png" alt="">
+            <img src="img/icones-footer/yaotube 1.png" alt="">
+          </div>
+        </div>
+        
+        <div class="footer-content">
+          <h4>Privacidade</h4>
+          <li><a href="#">Termos de uso</a></li>
+          <li><a href="#">Políticas de Privacidade</a></li>
+          <li><a href="#">Cookies</a></li>
+        </div>
+  
+        <div class="footer-content">
+          <h4>Serviços</h4>
+            <li><a href="#">Passagens</a></li>
+            <li><a href="#">Pacotes</a></li>
+            <li><a href="#">Promoções</a></li>
+        </div>
+  
+        <div class="footer-content">
+          <h4>Suporte</h4>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">FAQ - Perguntas <br> Frequentes</a></li>
+            <li><a href="#">Contato</a></li>
+        </div>
+  
+        <div class="footer-content">
+          <h4>Cliente</h4>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Cadastro</a></li>
+        </div>
+      </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="js/ViagensSoloScript.js"></script>
+</body>
+
+</html>

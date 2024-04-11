@@ -7,24 +7,24 @@ let precoTotal = document.querySelector('#preco-total')
 let alterarHotel = document.querySelector('#alterar-hotel')
 let detalheHotel = document.querySelector('#hotel-tipo')
 
-preco = 1300
+preco = 0
 
 
 
 let hotelUm = {
-    nome:"Hotel Rio de Janeiro",
-    caminhoImagem: "img/rio.jpg",
-    descricao:"Um hotel muito bom",
-    tipoHotel: "Apartamento Standard",
-    valor: 1300
+    nome:"Hotel Palace",
+    caminhoImagem: "img/hotel copacabana.webp",
+    descricao:"Hotel localizado em Copacabana",
+    tipoHotel: "Apartamento de luxo",
+    valor: 3000.00
 }
 
 let hotelDois = {
-    nome:"Hotel São Paulo",
-    caminhoImagem: "img/saopaulo.jpg",
-    descricao:"Um hotel melhor ainda",
-    tipoHotel: "Apartamento sim",
-    valor: 123
+    nome:"Hotel Cadaná",
+    caminhoImagem: "img/hotelCanada.jpg",
+    descricao:"Hotel no Rio de Janeiro",
+    tipoHotel: "Apartamento Standar",
+    valor: 2500
 }
 
 

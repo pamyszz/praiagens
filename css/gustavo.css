@@ -69,7 +69,7 @@ section #parte-um{
 }
 
 #hero-text span{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-family: var(--poppins-font);
     color: var(--cor-fonte-titulos1);
     font-weight: 600;
@@ -80,7 +80,7 @@ section #parte-um{
 }
 
 #hero-text p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-bottom: 50px;
 }
 
@@ -91,13 +91,13 @@ section #parte-um{
     background-color: var(--cor-primaria-azul);
     color: var(--cor-fonte-botoes);
     font-weight: 600;
-    font-size: 1.1em;
+    font-size: 1.1rem;
     text-align: center;
     transition: color 0.3 ease-in-out;
 }
 
 #botao{
-    font-size: 1.50em;
+    font-size: 1.5rem;
 }
 
 .botao > a {
@@ -157,7 +157,7 @@ a:hover{
 
 #search-box a .fas{
     color: #1daf;
-    font-size: 18px;
+    font-size: 1.2rem;
 }
 
 #parte-dois{
@@ -170,18 +170,18 @@ a:hover{
 }
 
 #parte-dois h1{
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: 600;
 }
 
 #parte-dois p{
-    font-size: 25px;
+    font-size: 1.7rem;
     color: var(--cor-fonte-texto1-transparencia);
 }
 
 #parte-dois div > a{
     margin-right: 30px;
-    font-size: 20px;
+    font-size: 1rem;
     text-decoration: none;
     color: #000000;
 }
@@ -222,12 +222,12 @@ a:hover{
     padding: 12px 0 0 20px;
     font-weight: 0;
     margin-left: 8px;
-    font-size: 26px;
+    font-size: 1.5rem;
     color: var(--cor-fonte-titulos1)
 }
 
 .cards-destaques span{
-    font-size: 20px;
+    font-size: 1rem;
     margin: 10px;
     color: var(--cor-fonte-texto1-transparencia);
 }
@@ -247,7 +247,7 @@ a:hover{
 }
 
 #parte-tres span{
-    font-size: 3.9rem;
+    font-size: 2.6rem;
     font-weight: 520;
 }
 #parte-tres > .titulo-azul{
@@ -255,7 +255,7 @@ a:hover{
 }
 
 #parte-tres p{
-    font-size: 28px;
+    font-size: 1.2rem;
     color: var(--cor-fonte-texto1-transparencia);
 }
 
@@ -269,19 +269,19 @@ a:hover{
 }
 
 #selos #img04{
-    height: 95%;
-    width: 78%;
-    border-radius: 30px;
+    height: auto;
+    width: 72%;
+    border-radius:30px;
 }
 
 
 #selos div {
     margin: 0px 0px 70px 30px;
-    font-size: 30px;
+    font-size: 1.8rem;
 }
 
 #selos p{
-    font-size: 25px;
+    font-size: 1.2rem;
     color: var(--cor-fonte-texto1-transparencia);
 }
 
@@ -295,7 +295,7 @@ a:hover{
             text-align: center;
         }
         #hero-text span{
-            font-size: 3rem;
+            font-size: 2rem;
         }
         #hero-text p{
             font-size: 1.5rem;
@@ -412,5 +412,17 @@ a:hover{
         
         #selos p{
             font-size: 15px;
+        }
+        
+        .box-video-vr{
+            width: 100px;
+            height: auto;
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        #veja-mais{
+            display: none;
         }
     }

@@ -1,6 +1,12 @@
 @media only screen and (max-width:480px){
+    .titulo-viajar{
+        font-size: 1.5rem;
+        
+        
+    }
     .paragrafo-viajar {
-        width: 30rem;
+        width: 20rem;
+        font-size: 0.8rem;
     }
     
     .card-container {

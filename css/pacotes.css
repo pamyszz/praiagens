@@ -2,20 +2,22 @@
     font-family: 'Poppins';
 }
 
+
 .banner {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 350px;
-    background-image: url('/img/saopaulo.jpg');
+    background-image: url('img/rio.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: red;
+    background-color: rgb(87, 87, 187);
 }
 
 .container-titulo {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 1400px;
@@ -64,6 +66,18 @@
     cursor: pointer;
     background-color: blue;
     color: var(--cor-fonte-botoes);
+    outline: none;
+    transition: 0.5s all;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.btn-filtro:hover{
+    background-color: rgb(0, 0, 148);
+}
+
+.btn-filtro:focus {
+    outline: none;
+    box-shadow: none; /* Remova qualquer sombra ao focar */
 }
 
 .search {
@@ -89,7 +103,7 @@
     gap: 10px;
     width: 100%;
     flex-wrap: wrap;
-    justify-content: space-between;
+   
     height: auto;
 
 }
@@ -100,7 +114,7 @@
     background-color: #fff;
     border-radius: 10px;
     min-width: 300px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
 }
 
@@ -117,6 +131,20 @@
     border-top-right-radius: 10px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+}
+
+.modo-noturno {
+    background-color: rgb(47, 47, 47);
+    color: var(--cor-fonte-botoes);
+}
+
+.modo-noturno-card {
+    background-color: rgb(82, 82, 82);
+    color: #fff;
+}
+
+.modo-noturno-texto {
+    color: var(--cor-fonte-botoes);
 }
 
 .card-info {
@@ -175,6 +203,10 @@
     background-color: var(--cor-fonte-hover);
 }
 
+.btn-comprar:focus{
+    outline: none;
+}
+
 .oferta {
     position: absolute;
     bottom: 210px;
@@ -217,6 +249,12 @@
 }
 .error{
     display:none;
+}
+.lupa{
+display: none;
+    top: 243px;
+    left: 510px;
+    opacity: 80%;
 }
 
 @media screen and (max-width: 620px) {
@@ -314,6 +352,7 @@
             align-items: center;
         }
     }
+    
 
 }
 
@@ -332,6 +371,7 @@
             width: 24%;
             min-width: 100px;
         }
+
 
     }
 }

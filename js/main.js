@@ -13,6 +13,7 @@ var navLink = document.querySelectorAll('.nav-link');
 
 ativarNoturno.addEventListener('click', toggleNoturno);
 
+
 function toggleNoturno() {
     if (isModoNoturnoAtivo) {
         removerClassesNoturnas();
@@ -76,15 +77,3 @@ function removerClassesNoturnas() {
     cabecalho.classList.add('bg-light');
 }
 
-let modal = document.getElementById('modal-resumo')
-
-let btnReservar = document.getElementById('btn-reserva')
-
-btnReservar.addEventListener('click', ()=>{
-   modal.style.display='flex'
-   modal.style.zIndex='1'
-})
-
-modal.addEventListener('click', ()=>{
-    modal.style.display='none'
-})

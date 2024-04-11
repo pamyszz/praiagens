@@ -49,8 +49,9 @@ form button {
     border: 1px solid #23B5D3;
     border-radius: 5px;
 }
-form #nomeCompleto,#cpf,#email,#confirmarEmail{
-    width: 100%;
+
+#cpf{
+    width: 50%;
 }
 form #dataNascimento,#telefone,#senha,#confirmarSenha{
     width: 100%;

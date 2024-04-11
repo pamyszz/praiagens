@@ -11,6 +11,7 @@
 }
 
 
+
 .container-carrinho {
     display: flex;
     justify-content: space-between;
@@ -57,11 +58,11 @@
     margin: 0;
 }
 
-div.icon-voo {
+.icon-voo {
     display: flex;
     align-items: center;
     gap: 10px;
-    height: 100%;
+   
 }
 
 .detalhes-viagem {
@@ -397,7 +398,7 @@ div.icon-voo {
 }
 
 .modo-noturno-card {
-    background-color: rgb(91, 91, 91);
+    background-color: rgb(58, 58, 58);
     color: #fff;
 }
 
@@ -415,7 +416,23 @@ div.icon-voo {
 
 /* Modal */
 
-.modal-resumo{
+.container-img-hotel img{
+    height: 100%;
+    width: 100%;
+}
+
+.preco-detalhes ul li{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.resumo-detalhes ul li{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.modal-resumo, #modal-resumo-hotel{
     display: none;
     justify-content: center;
     align-items: center;
@@ -425,19 +442,103 @@ div.icon-voo {
     position: fixed;
 }
 
-.modal-conteudo{
+.modal-conteudo, .modal-hotel{
     display: flex;
     flex-direction: column;
-    height: 700px;
-    width: 1400px;
+    height: auto;
+    width: 650px;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    padding: 30px;
+    max-height: 90vh;
+    overflow-y: scroll;
 }
+
+.modal-hotel{
+    width: 800px;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+ 
+  list-style: none;
+}
+
+.detalhes-titulo{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.308);
+    padding-bottom: 15px;
+}
+
+.detalhes-titulo i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.ida-info{
+    padding-top: 30px;
+}
+
+.icon-voo{
+    height: 20px;
+}
+
+.classe-duracao{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.info-item h3{
+    font-weight: 300;
+}
+
+.viagem-destino{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.308);
+    margin-top: 20px;
+}
+.container-detalhes-hotel{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container-img-hotel{
+    width: 100%;
+    height: 400px;
+    background-color: #2723D3;
+}
+.carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ar button{
+   background-color: transparent;
+   border: none;
+   height: 400px;
+}
+
 
 
 
 @media screen and (max-width: 900px) {
 
+    .modal-hotel{
+        height: 600px;
+        overflow: scroll;
+    }
+
+    .container-img-hotel{
+        height: 200px;
+    }
     .container-hotel {
         flex-direction: row;
         justify-content: flex-start;
@@ -445,7 +546,9 @@ div.icon-voo {
         overflow: auto;
     }
 
-
+    .carousel-control-prev{
+        height: 20px;
+    }
 
     .card-hotel {
         flex-direction: column;

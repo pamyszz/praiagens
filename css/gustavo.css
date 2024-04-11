@@ -367,6 +367,9 @@ a:hover{
         .cards-destaques{   
             margin-bottom: 30px;
         }
+        .box-video-vr{
+            width: 50rem;
+        }
     }
    
     @media screen and (max-width:678px) {
@@ -413,7 +416,7 @@ a:hover{
         #selos p{
             font-size: 15px;
         }
-        
+    
         .box-video-vr{
             width: 100px;
             height: auto;
@@ -426,3 +429,4 @@ a:hover{
             display: none;
         }
     }
+
